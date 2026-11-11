@@ -1,0 +1,7359 @@
+{
+ "route": {
+  "adminName": "경기도 고양시",
+  "districtCd": 2,
+  "endStationId": 112000176,
+  "endStationName": "현대백화점",
+  "regionName": "고양,서울,파주",
+  "routeId": 218000125,
+  "routeName": 65,
+  "routeTypeCd": 13,
+  "routeTypeName": "일반형시내버스",
+  "startStationId": 229001251,
+  "startStationName": "교하차고지"
+ },
+ "stations": [
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 30059",
+   "regionName": "파주",
+   "stationId": 229001251,
+   "stationName": "교하차고지",
+   "x": 126.7106833,
+   "y": 37.73325,
+   "adminName": "경기도 파주시",
+   "stationSeq": 1,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 30065",
+   "regionName": "파주",
+   "stationId": 229000900,
+   "stationName": "연다산32통",
+   "x": 126.7140833,
+   "y": 37.7355,
+   "adminName": "경기도 파주시",
+   "stationSeq": 2,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 30069",
+   "regionName": "파주",
+   "stationId": 229000899,
+   "stationName": "다율4통",
+   "x": 126.7170667,
+   "y": 37.7370333,
+   "adminName": "경기도 파주시",
+   "stationSeq": 3,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 30702",
+   "regionName": "파주",
+   "stationId": 229000898,
+   "stationName": "다율동",
+   "x": 126.7189167,
+   "y": 37.7379833,
+   "adminName": "경기도 파주시",
+   "stationSeq": 4,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 30672",
+   "regionName": "파주",
+   "stationId": 229000897,
+   "stationName": "다락골",
+   "x": 126.72505,
+   "y": 37.7409667,
+   "adminName": "경기도 파주시",
+   "stationSeq": 5,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 50141",
+   "regionName": "파주",
+   "stationId": 229000678,
+   "stationName": "해오름마을3.4단지",
+   "x": 126.7297167,
+   "y": 37.7414167,
+   "adminName": "경기도 파주시",
+   "stationSeq": 6,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 50137",
+   "regionName": "파주",
+   "stationId": 229000673,
+   "stationName": "해오름마을9.13단지",
+   "x": 126.7312667,
+   "y": 37.7378833,
+   "adminName": "경기도 파주시",
+   "stationSeq": 7,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 50112",
+   "regionName": "파주",
+   "stationId": 229000434,
+   "stationName": "해오름마을12.14단지",
+   "x": 126.7325333,
+   "y": 37.7360167,
+   "adminName": "경기도 파주시",
+   "stationSeq": 8,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 30103",
+   "regionName": "파주",
+   "stationId": 229001394,
+   "stationName": "산내마을6.8단지",
+   "x": 126.7356667,
+   "y": 37.7319,
+   "adminName": "경기도 파주시",
+   "stationSeq": 9,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 31766",
+   "regionName": "파주",
+   "stationId": 229001659,
+   "stationName": "산내마을8.12단지(중)",
+   "x": 126.7407833,
+   "y": 37.7296,
+   "adminName": "경기도 파주시",
+   "stationSeq": 10,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 31672",
+   "regionName": "파주",
+   "stationId": 229001545,
+   "stationName": "두레공원(중)",
+   "x": 126.7477,
+   "y": 37.7294333,
+   "adminName": "경기도 파주시",
+   "stationSeq": 11,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 30148",
+   "regionName": "파주",
+   "stationId": 229000937,
+   "stationName": "해솔마을4단지",
+   "x": 126.7516,
+   "y": 37.72815,
+   "adminName": "경기도 파주시",
+   "stationSeq": 12,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 31673",
+   "regionName": "파주",
+   "stationId": 229001553,
+   "stationName": "지산중학교.운정행복센터",
+   "x": 126.7512167,
+   "y": 37.7259,
+   "adminName": "경기도 파주시",
+   "stationSeq": 13,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 50046",
+   "regionName": "파주",
+   "stationId": 229001422,
+   "stationName": "해솔마을6.7단지",
+   "x": 126.7487833,
+   "y": 37.7221,
+   "adminName": "경기도 파주시",
+   "stationSeq": 14,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 31554",
+   "regionName": "파주",
+   "stationId": 229001431,
+   "stationName": "한빛마을1단지",
+   "x": 126.7462667,
+   "y": 37.7147,
+   "adminName": "경기도 파주시",
+   "stationSeq": 15,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 31628",
+   "regionName": "파주",
+   "stationId": 229001501,
+   "stationName": "새암공원",
+   "x": 126.7460833,
+   "y": 37.7113833,
+   "adminName": "경기도 파주시",
+   "stationSeq": 16,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 31757",
+   "regionName": "파주",
+   "stationId": 229001650,
+   "stationName": "동패동",
+   "x": 126.7459333,
+   "y": 37.70605,
+   "adminName": "경기도 파주시",
+   "stationSeq": 17,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20685",
+   "regionName": "고양",
+   "stationId": 219000732,
+   "stationName": "일산중심병원",
+   "x": 126.7471333,
+   "y": 37.7002167,
+   "adminName": "경기도 고양시",
+   "stationSeq": 18,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20623",
+   "regionName": "고양",
+   "stationId": 219000739,
+   "stationName": "신동아아파트",
+   "x": 126.7464167,
+   "y": 37.69595,
+   "adminName": "경기도 고양시",
+   "stationSeq": 19,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20672",
+   "regionName": "고양",
+   "stationId": 219000725,
+   "stationName": "덕이초등학교",
+   "x": 126.7465167,
+   "y": 37.6934667,
+   "adminName": "경기도 고양시",
+   "stationSeq": 20,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20661",
+   "regionName": "고양",
+   "stationId": 219000677,
+   "stationName": "성저리",
+   "x": 126.7417833,
+   "y": 37.6860167,
+   "adminName": "경기도 고양시",
+   "stationSeq": 21,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20714",
+   "regionName": "고양",
+   "stationId": 219001153,
+   "stationName": "일산서부경찰서",
+   "x": 126.73995,
+   "y": 37.6792333,
+   "adminName": "경기도 고양시",
+   "stationSeq": 22,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20492",
+   "regionName": "고양",
+   "stationId": 219000450,
+   "stationName": "고양종합운동장.일산서구청",
+   "x": 126.7437,
+   "y": 37.6776,
+   "adminName": "경기도 고양시",
+   "stationSeq": 23,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 20434",
+   "regionName": "고양",
+   "stationId": 219000560,
+   "stationName": "대화역(중)",
+   "x": 126.7474833,
+   "y": 37.6761,
+   "adminName": "경기도 고양시",
+   "stationSeq": 24,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 58066",
+   "regionName": "고양",
+   "stationId": 219000858,
+   "stationName": "장성초교",
+   "x": 126.7513167,
+   "y": 37.6779,
+   "adminName": "경기도 고양시",
+   "stationSeq": 25,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20106",
+   "regionName": "고양",
+   "stationId": 219000117,
+   "stationName": "연세프라자",
+   "x": 126.75465,
+   "y": 37.6783333,
+   "adminName": "경기도 고양시",
+   "stationSeq": 26,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20117",
+   "regionName": "고양",
+   "stationId": 219000116,
+   "stationName": "문촌마을6.7단지.쌍용아파트.기산아파트",
+   "x": 126.7587,
+   "y": 37.67655,
+   "adminName": "경기도 고양시",
+   "stationSeq": 27,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20150",
+   "regionName": "고양",
+   "stationId": 219000398,
+   "stationName": "유화프라자",
+   "x": 126.7638167,
+   "y": 37.6743333,
+   "adminName": "경기도 고양시",
+   "stationSeq": 28,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20170",
+   "regionName": "고양",
+   "stationId": 219000308,
+   "stationName": "강선초등학교",
+   "x": 126.7660333,
+   "y": 37.6716333,
+   "adminName": "경기도 고양시",
+   "stationSeq": 29,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 20161",
+   "regionName": "고양",
+   "stationId": 219000192,
+   "stationName": "강선마을(중)",
+   "x": 126.7653667,
+   "y": 37.6679167,
+   "adminName": "경기도 고양시",
+   "stationSeq": 30,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 20206",
+   "regionName": "고양",
+   "stationId": 219000131,
+   "stationName": "일산동부경찰서(중)",
+   "x": 126.7694667,
+   "y": 37.6640667,
+   "adminName": "경기도 고양시",
+   "stationSeq": 31,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 20227",
+   "regionName": "고양",
+   "stationId": 219000356,
+   "stationName": "일산동구청(중)",
+   "x": 126.77425,
+   "y": 37.6577833,
+   "adminName": "경기도 고양시",
+   "stationSeq": 32,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 20247",
+   "regionName": "고양",
+   "stationId": 219000370,
+   "stationName": "마두역(중)",
+   "x": 126.7774667,
+   "y": 37.6523333,
+   "adminName": "경기도 고양시",
+   "stationSeq": 33,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 20493",
+   "regionName": "고양",
+   "stationId": 219000452,
+   "stationName": "호수마을(중)",
+   "x": 126.7807,
+   "y": 37.6484833,
+   "adminName": "경기도 고양시",
+   "stationSeq": 34,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 20494",
+   "regionName": "고양",
+   "stationId": 219000454,
+   "stationName": "알미공원.일산동구보건소(중)",
+   "x": 126.7843167,
+   "y": 37.64575,
+   "adminName": "경기도 고양시",
+   "stationSeq": 35,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 20311",
+   "regionName": "고양",
+   "stationId": 219000368,
+   "stationName": "백석역(중)",
+   "x": 126.7860167,
+   "y": 37.6444833,
+   "adminName": "경기도 고양시",
+   "stationSeq": 36,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 20353",
+   "regionName": "고양",
+   "stationId": 219000163,
+   "stationName": "백석동.요진와이시티(중)",
+   "x": 126.7905667,
+   "y": 37.6410333,
+   "adminName": "경기도 고양시",
+   "stationSeq": 37,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 19007",
+   "regionName": "고양",
+   "stationId": 218000012,
+   "stationName": "대곡역(중)",
+   "x": 126.8096667,
+   "y": 37.63135,
+   "adminName": "경기도 고양시",
+   "stationSeq": 38,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "regionName": "고양",
+   "stationId": 277103094,
+   "stationName": "토당육교(경유)",
+   "x": 126.8223833,
+   "y": 37.6291167,
+   "adminName": "경기도 고양시",
+   "stationSeq": 39,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 19065",
+   "regionName": "고양",
+   "stationId": 218000316,
+   "stationName": "고양경찰서.토당청소년수련관(중)",
+   "x": 126.8301833,
+   "y": 37.62675,
+   "adminName": "경기도 고양시",
+   "stationSeq": 40,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 19348",
+   "regionName": "고양",
+   "stationId": 218000317,
+   "stationName": "행신초등학교.더자인병원(중)",
+   "x": 126.8375,
+   "y": 37.62215,
+   "adminName": "경기도 고양시",
+   "stationSeq": 41,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 19349",
+   "regionName": "고양",
+   "stationId": 218000318,
+   "stationName": "행신동(중)",
+   "x": 126.8420333,
+   "y": 37.6193,
+   "adminName": "경기도 고양시",
+   "stationSeq": 42,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 19565",
+   "regionName": "고양",
+   "stationId": 218000637,
+   "stationName": "소만마을(중)",
+   "x": 126.8465667,
+   "y": 37.6177,
+   "adminName": "경기도 고양시",
+   "stationSeq": 43,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 19403",
+   "regionName": "고양",
+   "stationId": 218000145,
+   "stationName": "서정마을(중)",
+   "x": 126.8512667,
+   "y": 37.61575,
+   "adminName": "경기도 고양시",
+   "stationSeq": 44,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 19177",
+   "regionName": "고양",
+   "stationId": 218000144,
+   "stationName": "화도교(중)",
+   "x": 126.8622667,
+   "y": 37.6087,
+   "adminName": "경기도 고양시",
+   "stationSeq": 45,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 19189",
+   "regionName": "고양",
+   "stationId": 218000143,
+   "stationName": "화전파출소(중)",
+   "x": 126.8662833,
+   "y": 37.6061,
+   "adminName": "경기도 고양시",
+   "stationSeq": 46,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 19659",
+   "regionName": "고양",
+   "stationId": 218000538,
+   "stationName": "한국항공대역1번출구",
+   "x": 126.869,
+   "y": 37.6035667,
+   "adminName": "경기도 고양시",
+   "stationSeq": 47,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 19367",
+   "regionName": "고양",
+   "stationId": 218000302,
+   "stationName": "항공대학교",
+   "x": 126.8703167,
+   "y": 37.60165,
+   "adminName": "경기도 고양시",
+   "stationSeq": 48,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 19204",
+   "regionName": "고양",
+   "stationId": 218000141,
+   "stationName": "화전동행정복지센터",
+   "x": 126.87415,
+   "y": 37.5987833,
+   "adminName": "경기도 고양시",
+   "stationSeq": 49,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 19210",
+   "regionName": "고양",
+   "stationId": 218000140,
+   "stationName": "덕은동(중)",
+   "x": 126.8775833,
+   "y": 37.5955667,
+   "adminName": "경기도 고양시",
+   "stationSeq": 50,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 12001",
+   "regionName": "서울",
+   "stationId": 111000001,
+   "stationName": "덕은교.은평차고지앞(중)",
+   "x": 126.8841,
+   "y": 37.5896,
+   "adminName": "서울특별시 은평구",
+   "stationSeq": 51,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 12003",
+   "regionName": "서울",
+   "stationId": 111000003,
+   "stationName": "수색교(중)",
+   "x": 126.8885167,
+   "y": 37.5858667,
+   "adminName": "서울특별시 은평구",
+   "stationSeq": 52,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 12005",
+   "regionName": "서울",
+   "stationId": 111000005,
+   "stationName": "수색역앞(중)",
+   "x": 126.8932667,
+   "y": 37.58325,
+   "adminName": "서울특별시 은평구",
+   "stationSeq": 53,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 12007",
+   "regionName": "서울",
+   "stationId": 111000007,
+   "stationName": "디지털미디어시티역(중)",
+   "x": 126.90055,
+   "y": 37.5790667,
+   "adminName": "서울특별시 은평구",
+   "stationSeq": 54,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 13001",
+   "regionName": "서울",
+   "stationId": 112000001,
+   "stationName": "북가좌동삼거리(중)",
+   "x": 126.9045667,
+   "y": 37.5755167,
+   "adminName": "서울특별시 서대문구",
+   "stationSeq": 55,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 13003",
+   "regionName": "서울",
+   "stationId": 112000003,
+   "stationName": "DMC래미안e.편한세상요진아파트(중)",
+   "x": 126.9096833,
+   "y": 37.57175,
+   "adminName": "서울특별시 서대문구",
+   "stationSeq": 56,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 13005",
+   "regionName": "서울",
+   "stationId": 112000005,
+   "stationName": "모래내시장.가좌역(중)",
+   "x": 126.9151,
+   "y": 37.5691167,
+   "adminName": "서울특별시 서대문구",
+   "stationSeq": 57,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 13007",
+   "regionName": "서울",
+   "stationId": 112000007,
+   "stationName": "사천교(중)",
+   "x": 126.9181833,
+   "y": 37.5675333,
+   "adminName": "서울특별시 서대문구",
+   "stationSeq": 58,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 13008",
+   "regionName": "서울",
+   "stationId": 112000008,
+   "stationName": "연희104고지앞.궁동근린공원",
+   "x": 126.9253,
+   "y": 37.5663167,
+   "adminName": "서울특별시 서대문구",
+   "stationSeq": 59,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 13010",
+   "regionName": "서울",
+   "stationId": 112000010,
+   "stationName": "서대문우체국(중)",
+   "x": 126.9320833,
+   "y": 37.56185,
+   "adminName": "서울특별시 서대문구",
+   "stationSeq": 60,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 13114",
+   "regionName": "서울",
+   "stationId": 112000031,
+   "stationName": "연세대학교앞",
+   "x": 126.93535,
+   "y": 37.5598333,
+   "adminName": "서울특별시 서대문구",
+   "stationSeq": 61,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 13146",
+   "regionName": "서울",
+   "stationId": 112000063,
+   "stationName": "연세로.스타광장",
+   "x": 126.9367833,
+   "y": 37.5565333,
+   "adminName": "서울특별시 서대문구",
+   "stationSeq": 62,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 13259",
+   "regionName": "서울",
+   "stationId": 112000176,
+   "stationName": "현대백화점",
+   "x": 126.933,
+   "y": 37.5566667,
+   "adminName": "서울특별시 서대문구",
+   "stationSeq": 63,
+   "turnSeq": 63,
+   "turnYn": "Y"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 13144",
+   "regionName": "서울",
+   "stationId": 112000061,
+   "stationName": "동교동삼거리연희동방면",
+   "x": 126.9274833,
+   "y": 37.5586667,
+   "adminName": "서울특별시 서대문구",
+   "stationSeq": 64,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 13147",
+   "regionName": "서울",
+   "stationId": 112000064,
+   "stationName": "연희동대우아파트",
+   "x": 126.9279333,
+   "y": 37.56265,
+   "adminName": "서울특별시 서대문구",
+   "stationSeq": 65,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 13111",
+   "regionName": "서울",
+   "stationId": 112000028,
+   "stationName": "연희104고지앞.궁동근린공원",
+   "x": 126.9249833,
+   "y": 37.5665333,
+   "adminName": "서울특별시 서대문구",
+   "stationSeq": 66,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 13109",
+   "regionName": "서울",
+   "stationId": 112000026,
+   "stationName": "사천교",
+   "x": 126.9175667,
+   "y": 37.5680833,
+   "adminName": "서울특별시 서대문구",
+   "stationSeq": 67,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 13006",
+   "regionName": "서울",
+   "stationId": 112000006,
+   "stationName": "모래내시장.가좌역(중)",
+   "x": 126.9138167,
+   "y": 37.56985,
+   "adminName": "서울특별시 서대문구",
+   "stationSeq": 68,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 13004",
+   "regionName": "서울",
+   "stationId": 112000004,
+   "stationName": "DMC래미안e.편한세상요진아파트(중)",
+   "x": 126.9102667,
+   "y": 37.5715167,
+   "adminName": "서울특별시 서대문구",
+   "stationSeq": 69,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 13002",
+   "regionName": "서울",
+   "stationId": 112000002,
+   "stationName": "북가좌동삼거리(중)",
+   "x": 126.9051,
+   "y": 37.57515,
+   "adminName": "서울특별시 서대문구",
+   "stationSeq": 70,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 12008",
+   "regionName": "서울",
+   "stationId": 111000008,
+   "stationName": "디지털미디어시티역(중)",
+   "x": 126.9013667,
+   "y": 37.5785333,
+   "adminName": "서울특별시 은평구",
+   "stationSeq": 71,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 12006",
+   "regionName": "서울",
+   "stationId": 111000006,
+   "stationName": "수색역앞(중)",
+   "x": 126.89405,
+   "y": 37.583,
+   "adminName": "서울특별시 은평구",
+   "stationSeq": 72,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 12004",
+   "regionName": "서울",
+   "stationId": 111000004,
+   "stationName": "수색교(중)",
+   "x": 126.8892,
+   "y": 37.5854,
+   "adminName": "서울특별시 은평구",
+   "stationSeq": 73,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 12002",
+   "regionName": "서울",
+   "stationId": 111000002,
+   "stationName": "덕은교.은평차고지앞(중)",
+   "x": 126.88475,
+   "y": 37.5891833,
+   "adminName": "서울특별시 은평구",
+   "stationSeq": 74,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 19212",
+   "regionName": "고양",
+   "stationId": 218000139,
+   "stationName": "덕은동(중)",
+   "x": 126.8785167,
+   "y": 37.5947167,
+   "adminName": "경기도 고양시",
+   "stationSeq": 75,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 19207",
+   "regionName": "고양",
+   "stationId": 218000138,
+   "stationName": "화전동행정복지센터",
+   "x": 126.8752333,
+   "y": 37.5980167,
+   "adminName": "경기도 고양시",
+   "stationSeq": 76,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 19199",
+   "regionName": "고양",
+   "stationId": 218000301,
+   "stationName": "항공대학교",
+   "x": 126.8711333,
+   "y": 37.6009333,
+   "adminName": "경기도 고양시",
+   "stationSeq": 77,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 19658",
+   "regionName": "고양",
+   "stationId": 218000540,
+   "stationName": "한국항공대역1번출구",
+   "x": 126.86955,
+   "y": 37.6027667,
+   "adminName": "경기도 고양시",
+   "stationSeq": 78,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 19190",
+   "regionName": "고양",
+   "stationId": 218000136,
+   "stationName": "화전파출소(중)",
+   "x": 126.8667833,
+   "y": 37.6058833,
+   "adminName": "경기도 고양시",
+   "stationSeq": 79,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 19178",
+   "regionName": "고양",
+   "stationId": 218000135,
+   "stationName": "화도교(중)",
+   "x": 126.8610333,
+   "y": 37.6096167,
+   "adminName": "경기도 고양시",
+   "stationSeq": 80,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 19404",
+   "regionName": "고양",
+   "stationId": 218000134,
+   "stationName": "서정마을(중)",
+   "x": 126.8520167,
+   "y": 37.6154,
+   "adminName": "경기도 고양시",
+   "stationSeq": 81,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 19564",
+   "regionName": "고양",
+   "stationId": 218000636,
+   "stationName": "소만마을(중)",
+   "x": 126.8474,
+   "y": 37.6175,
+   "adminName": "경기도 고양시",
+   "stationSeq": 82,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 19134",
+   "regionName": "고양",
+   "stationId": 218000078,
+   "stationName": "행신동(중)",
+   "x": 126.8427,
+   "y": 37.6191167,
+   "adminName": "경기도 고양시",
+   "stationSeq": 83,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 19346",
+   "regionName": "고양",
+   "stationId": 218000319,
+   "stationName": "행신초등학교.더자인병원(중)",
+   "x": 126.8380667,
+   "y": 37.6219333,
+   "adminName": "경기도 고양시",
+   "stationSeq": 84,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 19345",
+   "regionName": "고양",
+   "stationId": 218000320,
+   "stationName": "고양경찰서.토당청소년수련관(중)",
+   "x": 126.8286833,
+   "y": 37.6273333,
+   "adminName": "경기도 고양시",
+   "stationSeq": 85,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "regionName": "고양",
+   "stationId": 277103095,
+   "stationName": "토당육교(경유)",
+   "x": 126.8231833,
+   "y": 37.6291,
+   "adminName": "경기도 고양시",
+   "stationSeq": 86,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 19010",
+   "regionName": "고양",
+   "stationId": 218000202,
+   "stationName": "대곡역(중)",
+   "x": 126.8119333,
+   "y": 37.6313833,
+   "adminName": "경기도 고양시",
+   "stationSeq": 87,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 20352",
+   "regionName": "고양",
+   "stationId": 219000386,
+   "stationName": "백석동.요진와이시티(중)",
+   "x": 126.7910667,
+   "y": 37.6408167,
+   "adminName": "경기도 고양시",
+   "stationSeq": 88,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 20323",
+   "regionName": "고양",
+   "stationId": 219000385,
+   "stationName": "안산공원.일산동구보건소(중)",
+   "x": 126.7848667,
+   "y": 37.6454667,
+   "adminName": "경기도 고양시",
+   "stationSeq": 89,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 20491",
+   "regionName": "고양",
+   "stationId": 219000453,
+   "stationName": "흰돌마을(중)",
+   "x": 126.7813333,
+   "y": 37.64815,
+   "adminName": "경기도 고양시",
+   "stationSeq": 90,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 20249",
+   "regionName": "고양",
+   "stationId": 219000383,
+   "stationName": "마두역(중)",
+   "x": 126.77795,
+   "y": 37.65175,
+   "adminName": "경기도 고양시",
+   "stationSeq": 91,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 20224",
+   "regionName": "고양",
+   "stationId": 219000191,
+   "stationName": "일산동구청(중)",
+   "x": 126.7746667,
+   "y": 37.6574,
+   "adminName": "경기도 고양시",
+   "stationSeq": 92,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 20203",
+   "regionName": "고양",
+   "stationId": 219000130,
+   "stationName": "일산동부경찰서(중)",
+   "x": 126.7700167,
+   "y": 37.66365,
+   "adminName": "경기도 고양시",
+   "stationSeq": 93,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 20166",
+   "regionName": "고양",
+   "stationId": 219000190,
+   "stationName": "강선마을(중)",
+   "x": 126.7662167,
+   "y": 37.6674,
+   "adminName": "경기도 고양시",
+   "stationSeq": 94,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20162",
+   "regionName": "고양",
+   "stationId": 219000307,
+   "stationName": "강선초등학교",
+   "x": 126.7658667,
+   "y": 37.6708833,
+   "adminName": "경기도 고양시",
+   "stationSeq": 95,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20153",
+   "regionName": "고양",
+   "stationId": 219000397,
+   "stationName": "유화프라자",
+   "x": 126.7643833,
+   "y": 37.6743833,
+   "adminName": "경기도 고양시",
+   "stationSeq": 96,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20123",
+   "regionName": "고양",
+   "stationId": 219000346,
+   "stationName": "문촌마을.라이프아파트",
+   "x": 126.7592167,
+   "y": 37.6765833,
+   "adminName": "경기도 고양시",
+   "stationSeq": 97,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20104",
+   "regionName": "고양",
+   "stationId": 219000345,
+   "stationName": "연세프라자",
+   "x": 126.7541167,
+   "y": 37.6788167,
+   "adminName": "경기도 고양시",
+   "stationSeq": 98,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20094",
+   "regionName": "고양",
+   "stationId": 219000194,
+   "stationName": "장성초교",
+   "x": 126.7506333,
+   "y": 37.6776333,
+   "adminName": "경기도 고양시",
+   "stationSeq": 99,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20470",
+   "regionName": "고양",
+   "stationId": 219000561,
+   "stationName": "대화역(중)",
+   "x": 126.7479333,
+   "y": 37.6759833,
+   "adminName": "경기도 고양시",
+   "stationSeq": 100,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20490",
+   "regionName": "고양",
+   "stationId": 219000451,
+   "stationName": "고양종합운동장.일산서구청",
+   "x": 126.7440333,
+   "y": 37.6778833,
+   "adminName": "경기도 고양시",
+   "stationSeq": 101,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20713",
+   "regionName": "고양",
+   "stationId": 219001152,
+   "stationName": "일산서부경찰서",
+   "x": 126.7401667,
+   "y": 37.6795333,
+   "adminName": "경기도 고양시",
+   "stationSeq": 102,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20662",
+   "regionName": "고양",
+   "stationId": 219000678,
+   "stationName": "성저리",
+   "x": 126.74205,
+   "y": 37.6858667,
+   "adminName": "경기도 고양시",
+   "stationSeq": 103,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20673",
+   "regionName": "고양",
+   "stationId": 219000726,
+   "stationName": "덕이초등학교",
+   "x": 126.7468333,
+   "y": 37.6934667,
+   "adminName": "경기도 고양시",
+   "stationSeq": 104,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20622",
+   "regionName": "고양",
+   "stationId": 219000740,
+   "stationName": "신동아아파트",
+   "x": 126.7466,
+   "y": 37.6964833,
+   "adminName": "경기도 고양시",
+   "stationSeq": 105,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 20684",
+   "regionName": "고양",
+   "stationId": 219000731,
+   "stationName": "일산중심병원",
+   "x": 126.7474,
+   "y": 37.7000833,
+   "adminName": "경기도 고양시",
+   "stationSeq": 106,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 31758",
+   "regionName": "파주",
+   "stationId": 229001651,
+   "stationName": "동패동",
+   "x": 126.7463,
+   "y": 37.70615,
+   "adminName": "경기도 파주시",
+   "stationSeq": 107,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 31626",
+   "regionName": "파주",
+   "stationId": 229001502,
+   "stationName": "새암공원",
+   "x": 126.7464167,
+   "y": 37.71045,
+   "adminName": "경기도 파주시",
+   "stationSeq": 108,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 31552",
+   "regionName": "파주",
+   "stationId": 229001432,
+   "stationName": "한빛마을1단지",
+   "x": 126.7466,
+   "y": 37.7147833,
+   "adminName": "경기도 파주시",
+   "stationSeq": 109,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 50045",
+   "regionName": "파주",
+   "stationId": 229001423,
+   "stationName": "해솔마을6.7단지",
+   "x": 126.7491,
+   "y": 37.72195,
+   "adminName": "경기도 파주시",
+   "stationSeq": 110,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 31680",
+   "regionName": "파주",
+   "stationId": 229001554,
+   "stationName": "지산중학교.운정행복센터",
+   "x": 126.7514833,
+   "y": 37.72565,
+   "adminName": "경기도 파주시",
+   "stationSeq": 111,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 30845",
+   "regionName": "파주",
+   "stationId": 229000919,
+   "stationName": "가람마을9단지",
+   "x": 126.752,
+   "y": 37.728,
+   "adminName": "경기도 파주시",
+   "stationSeq": 112,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 31670",
+   "regionName": "파주",
+   "stationId": 229001546,
+   "stationName": "두레공원(중)",
+   "x": 126.74825,
+   "y": 37.7295167,
+   "adminName": "경기도 파주시",
+   "stationSeq": 113,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "Y",
+   "districtCd": 2,
+   "mobileNo": " 31765",
+   "regionName": "파주",
+   "stationId": 229001658,
+   "stationName": "산내마을8.12단지(중)",
+   "x": 126.7413167,
+   "y": 37.72975,
+   "adminName": "경기도 파주시",
+   "stationSeq": 114,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 30104",
+   "regionName": "파주",
+   "stationId": 229000930,
+   "stationName": "산내마을6.8단지",
+   "x": 126.7359667,
+   "y": 37.7320333,
+   "adminName": "경기도 파주시",
+   "stationSeq": 115,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 50136",
+   "regionName": "파주",
+   "stationId": 229000670,
+   "stationName": "해오름마을12.14단지",
+   "x": 126.7328333,
+   "y": 37.7361,
+   "adminName": "경기도 파주시",
+   "stationSeq": 116,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 50138",
+   "regionName": "파주",
+   "stationId": 229000675,
+   "stationName": "해오름마을9.13단지",
+   "x": 126.7315833,
+   "y": 37.7379333,
+   "adminName": "경기도 파주시",
+   "stationSeq": 117,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 50142",
+   "regionName": "파주",
+   "stationId": 229000679,
+   "stationName": "해오름마을3.4단지",
+   "x": 126.7293833,
+   "y": 37.7425333,
+   "adminName": "경기도 파주시",
+   "stationSeq": 118,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 30671",
+   "regionName": "파주",
+   "stationId": 229000886,
+   "stationName": "다락골",
+   "x": 126.7248667,
+   "y": 37.74105,
+   "adminName": "경기도 파주시",
+   "stationSeq": 119,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 30701",
+   "regionName": "파주",
+   "stationId": 229000885,
+   "stationName": "다율동",
+   "x": 126.7188667,
+   "y": 37.7380667,
+   "adminName": "경기도 파주시",
+   "stationSeq": 120,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 30068",
+   "regionName": "파주",
+   "stationId": 229000884,
+   "stationName": "다율4통",
+   "x": 126.7169833,
+   "y": 37.7371,
+   "adminName": "경기도 파주시",
+   "stationSeq": 121,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 30064",
+   "regionName": "파주",
+   "stationId": 229000883,
+   "stationName": "연다산32통",
+   "x": 126.7140667,
+   "y": 37.7355833,
+   "adminName": "경기도 파주시",
+   "stationSeq": 122,
+   "turnSeq": 63,
+   "turnYn": "N"
+  },
+  {
+   "centerYn": "N",
+   "districtCd": 2,
+   "mobileNo": " 30060",
+   "regionName": "파주",
+   "stationId": 229001271,
+   "stationName": "연다산동종점",
+   "x": 126.71075,
+   "y": 37.7334167,
+   "adminName": "경기도 파주시",
+   "stationSeq": 123,
+   "turnSeq": 63,
+   "turnYn": "N"
+  }
+ ],
+ "line": [
+  {
+   "lineSeq": 1,
+   "x": 126.7108,
+   "y": 37.73324
+  },
+  {
+   "lineSeq": 2,
+   "x": 126.71112,
+   "y": 37.7332
+  },
+  {
+   "lineSeq": 3,
+   "x": 126.71122,
+   "y": 37.73322
+  },
+  {
+   "lineSeq": 4,
+   "x": 126.71129,
+   "y": 37.73324
+  },
+  {
+   "lineSeq": 5,
+   "x": 126.71137,
+   "y": 37.73333
+  },
+  {
+   "lineSeq": 6,
+   "x": 126.7115,
+   "y": 37.73341
+  },
+  {
+   "lineSeq": 7,
+   "x": 126.71189,
+   "y": 37.73359
+  },
+  {
+   "lineSeq": 8,
+   "x": 126.71206,
+   "y": 37.7337
+  },
+  {
+   "lineSeq": 9,
+   "x": 126.71219,
+   "y": 37.7338
+  },
+  {
+   "lineSeq": 10,
+   "x": 126.71229,
+   "y": 37.7339
+  },
+  {
+   "lineSeq": 11,
+   "x": 126.71311,
+   "y": 37.73505
+  },
+  {
+   "lineSeq": 12,
+   "x": 126.71319,
+   "y": 37.73516
+  },
+  {
+   "lineSeq": 13,
+   "x": 126.71332,
+   "y": 37.73526
+  },
+  {
+   "lineSeq": 14,
+   "x": 126.71343,
+   "y": 37.73532
+  },
+  {
+   "lineSeq": 15,
+   "x": 126.7139,
+   "y": 37.73548
+  },
+  {
+   "lineSeq": 16,
+   "x": 126.71395,
+   "y": 37.73552
+  },
+  {
+   "lineSeq": 17,
+   "x": 126.714,
+   "y": 37.73551
+  },
+  {
+   "lineSeq": 18,
+   "x": 126.71412,
+   "y": 37.73555
+  },
+  {
+   "lineSeq": 19,
+   "x": 126.71424,
+   "y": 37.73558
+  },
+  {
+   "lineSeq": 20,
+   "x": 126.71442,
+   "y": 37.73562
+  },
+  {
+   "lineSeq": 21,
+   "x": 126.71513,
+   "y": 37.73569
+  },
+  {
+   "lineSeq": 22,
+   "x": 126.71527,
+   "y": 37.73573
+  },
+  {
+   "lineSeq": 23,
+   "x": 126.71549,
+   "y": 37.73581
+  },
+  {
+   "lineSeq": 24,
+   "x": 126.71566,
+   "y": 37.73592
+  },
+  {
+   "lineSeq": 25,
+   "x": 126.7166,
+   "y": 37.73676
+  },
+  {
+   "lineSeq": 26,
+   "x": 126.71688,
+   "y": 37.73698
+  },
+  {
+   "lineSeq": 27,
+   "x": 126.71704,
+   "y": 37.73706
+  },
+  {
+   "lineSeq": 28,
+   "x": 126.71709,
+   "y": 37.73708
+  },
+  {
+   "lineSeq": 29,
+   "x": 126.71725,
+   "y": 37.73714
+  },
+  {
+   "lineSeq": 30,
+   "x": 126.71758,
+   "y": 37.73725
+  },
+  {
+   "lineSeq": 31,
+   "x": 126.71789,
+   "y": 37.73738
+  },
+  {
+   "lineSeq": 32,
+   "x": 126.71816,
+   "y": 37.73754
+  },
+  {
+   "lineSeq": 33,
+   "x": 126.7182,
+   "y": 37.73759
+  },
+  {
+   "lineSeq": 34,
+   "x": 126.71829,
+   "y": 37.73762
+  },
+  {
+   "lineSeq": 35,
+   "x": 126.71883,
+   "y": 37.73797
+  },
+  {
+   "lineSeq": 36,
+   "x": 126.71894,
+   "y": 37.73803
+  },
+  {
+   "lineSeq": 37,
+   "x": 126.71909,
+   "y": 37.73812
+  },
+  {
+   "lineSeq": 38,
+   "x": 126.71931,
+   "y": 37.73821
+  },
+  {
+   "lineSeq": 39,
+   "x": 126.71967,
+   "y": 37.73833
+  },
+  {
+   "lineSeq": 40,
+   "x": 126.71984,
+   "y": 37.73843
+  },
+  {
+   "lineSeq": 41,
+   "x": 126.71999,
+   "y": 37.73853
+  },
+  {
+   "lineSeq": 42,
+   "x": 126.7201,
+   "y": 37.73864
+  },
+  {
+   "lineSeq": 43,
+   "x": 126.72044,
+   "y": 37.73901
+  },
+  {
+   "lineSeq": 44,
+   "x": 126.72059,
+   "y": 37.73914
+  },
+  {
+   "lineSeq": 45,
+   "x": 126.72076,
+   "y": 37.73925
+  },
+  {
+   "lineSeq": 46,
+   "x": 126.72094,
+   "y": 37.73932
+  },
+  {
+   "lineSeq": 47,
+   "x": 126.72152,
+   "y": 37.73952
+  },
+  {
+   "lineSeq": 48,
+   "x": 126.72159,
+   "y": 37.73955
+  },
+  {
+   "lineSeq": 49,
+   "x": 126.72169,
+   "y": 37.73956
+  },
+  {
+   "lineSeq": 50,
+   "x": 126.72225,
+   "y": 37.7397
+  },
+  {
+   "lineSeq": 51,
+   "x": 126.72241,
+   "y": 37.73976
+  },
+  {
+   "lineSeq": 52,
+   "x": 126.72257,
+   "y": 37.73983
+  },
+  {
+   "lineSeq": 53,
+   "x": 126.72416,
+   "y": 37.74066
+  },
+  {
+   "lineSeq": 54,
+   "x": 126.72423,
+   "y": 37.74072
+  },
+  {
+   "lineSeq": 55,
+   "x": 126.72437,
+   "y": 37.74075
+  },
+  {
+   "lineSeq": 56,
+   "x": 126.72459,
+   "y": 37.74083
+  },
+  {
+   "lineSeq": 57,
+   "x": 126.72506,
+   "y": 37.74104
+  },
+  {
+   "lineSeq": 58,
+   "x": 126.72538,
+   "y": 37.74118
+  },
+  {
+   "lineSeq": 59,
+   "x": 126.72661,
+   "y": 37.74188
+  },
+  {
+   "lineSeq": 60,
+   "x": 126.72672,
+   "y": 37.74198
+  },
+  {
+   "lineSeq": 61,
+   "x": 126.7269,
+   "y": 37.74205
+  },
+  {
+   "lineSeq": 62,
+   "x": 126.72737,
+   "y": 37.7424
+  },
+  {
+   "lineSeq": 63,
+   "x": 126.72847,
+   "y": 37.74339
+  },
+  {
+   "lineSeq": 64,
+   "x": 126.72856,
+   "y": 37.7435
+  },
+  {
+   "lineSeq": 65,
+   "x": 126.72859,
+   "y": 37.74339
+  },
+  {
+   "lineSeq": 66,
+   "x": 126.72944,
+   "y": 37.74216
+  },
+  {
+   "lineSeq": 67,
+   "x": 126.72956,
+   "y": 37.74206
+  },
+  {
+   "lineSeq": 68,
+   "x": 126.72961,
+   "y": 37.74194
+  },
+  {
+   "lineSeq": 69,
+   "x": 126.72989,
+   "y": 37.7415
+  },
+  {
+   "lineSeq": 70,
+   "x": 126.73035,
+   "y": 37.74078
+  },
+  {
+   "lineSeq": 71,
+   "x": 126.73055,
+   "y": 37.74041
+  },
+  {
+   "lineSeq": 72,
+   "x": 126.7308,
+   "y": 37.7397
+  },
+  {
+   "lineSeq": 73,
+   "x": 126.73095,
+   "y": 37.73906
+  },
+  {
+   "lineSeq": 74,
+   "x": 126.73101,
+   "y": 37.73893
+  },
+  {
+   "lineSeq": 75,
+   "x": 126.73103,
+   "y": 37.7388
+  },
+  {
+   "lineSeq": 76,
+   "x": 126.73123,
+   "y": 37.73829
+  },
+  {
+   "lineSeq": 77,
+   "x": 126.73141,
+   "y": 37.73795
+  },
+  {
+   "lineSeq": 78,
+   "x": 126.73151,
+   "y": 37.73776
+  },
+  {
+   "lineSeq": 79,
+   "x": 126.73179,
+   "y": 37.73736
+  },
+  {
+   "lineSeq": 80,
+   "x": 126.73268,
+   "y": 37.73609
+  },
+  {
+   "lineSeq": 81,
+   "x": 126.73296,
+   "y": 37.73568
+  },
+  {
+   "lineSeq": 82,
+   "x": 126.73308,
+   "y": 37.73558
+  },
+  {
+   "lineSeq": 83,
+   "x": 126.73313,
+   "y": 37.73544
+  },
+  {
+   "lineSeq": 84,
+   "x": 126.73367,
+   "y": 37.73473
+  },
+  {
+   "lineSeq": 85,
+   "x": 126.7338,
+   "y": 37.73461
+  },
+  {
+   "lineSeq": 86,
+   "x": 126.73384,
+   "y": 37.73449
+  },
+  {
+   "lineSeq": 87,
+   "x": 126.73402,
+   "y": 37.73424
+  },
+  {
+   "lineSeq": 88,
+   "x": 126.73469,
+   "y": 37.73347
+  },
+  {
+   "lineSeq": 89,
+   "x": 126.7351,
+   "y": 37.733
+  },
+  {
+   "lineSeq": 90,
+   "x": 126.73522,
+   "y": 37.73292
+  },
+  {
+   "lineSeq": 91,
+   "x": 126.73526,
+   "y": 37.73279
+  },
+  {
+   "lineSeq": 92,
+   "x": 126.73583,
+   "y": 37.73198
+  },
+  {
+   "lineSeq": 93,
+   "x": 126.73613,
+   "y": 37.73156
+  },
+  {
+   "lineSeq": 94,
+   "x": 126.73671,
+   "y": 37.73073
+  },
+  {
+   "lineSeq": 95,
+   "x": 126.73683,
+   "y": 37.73062
+  },
+  {
+   "lineSeq": 96,
+   "x": 126.73688,
+   "y": 37.73049
+  },
+  {
+   "lineSeq": 97,
+   "x": 126.73787,
+   "y": 37.72911
+  },
+  {
+   "lineSeq": 98,
+   "x": 126.738,
+   "y": 37.729
+  },
+  {
+   "lineSeq": 99,
+   "x": 126.73821,
+   "y": 37.72902
+  },
+  {
+   "lineSeq": 100,
+   "x": 126.7391,
+   "y": 37.72931
+  },
+  {
+   "lineSeq": 101,
+   "x": 126.73987,
+   "y": 37.7295
+  },
+  {
+   "lineSeq": 102,
+   "x": 126.74037,
+   "y": 37.72959
+  },
+  {
+   "lineSeq": 103,
+   "x": 126.74083,
+   "y": 37.72964
+  },
+  {
+   "lineSeq": 104,
+   "x": 126.74132,
+   "y": 37.7297
+  },
+  {
+   "lineSeq": 105,
+   "x": 126.74213,
+   "y": 37.72973
+  },
+  {
+   "lineSeq": 106,
+   "x": 126.7427,
+   "y": 37.72972
+  },
+  {
+   "lineSeq": 107,
+   "x": 126.7429,
+   "y": 37.72973
+  },
+  {
+   "lineSeq": 108,
+   "x": 126.74309,
+   "y": 37.7297
+  },
+  {
+   "lineSeq": 109,
+   "x": 126.74726,
+   "y": 37.7295
+  },
+  {
+   "lineSeq": 110,
+   "x": 126.74774,
+   "y": 37.72948
+  },
+  {
+   "lineSeq": 111,
+   "x": 126.74786,
+   "y": 37.72947
+  },
+  {
+   "lineSeq": 112,
+   "x": 126.74849,
+   "y": 37.72945
+  },
+  {
+   "lineSeq": 113,
+   "x": 126.74906,
+   "y": 37.72946
+  },
+  {
+   "lineSeq": 114,
+   "x": 126.75051,
+   "y": 37.72955
+  },
+  {
+   "lineSeq": 115,
+   "x": 126.75155,
+   "y": 37.72965
+  },
+  {
+   "lineSeq": 116,
+   "x": 126.75173,
+   "y": 37.72969
+  },
+  {
+   "lineSeq": 117,
+   "x": 126.7517,
+   "y": 37.72953
+  },
+  {
+   "lineSeq": 118,
+   "x": 126.75174,
+   "y": 37.72919
+  },
+  {
+   "lineSeq": 119,
+   "x": 126.75181,
+   "y": 37.72841
+  },
+  {
+   "lineSeq": 120,
+   "x": 126.75181,
+   "y": 37.72818
+  },
+  {
+   "lineSeq": 121,
+   "x": 126.75182,
+   "y": 37.7277
+  },
+  {
+   "lineSeq": 122,
+   "x": 126.75177,
+   "y": 37.72725
+  },
+  {
+   "lineSeq": 123,
+   "x": 126.75161,
+   "y": 37.72653
+  },
+  {
+   "lineSeq": 124,
+   "x": 126.75138,
+   "y": 37.72588
+  },
+  {
+   "lineSeq": 125,
+   "x": 126.75135,
+   "y": 37.72581
+  },
+  {
+   "lineSeq": 126,
+   "x": 126.7511,
+   "y": 37.72527
+  },
+  {
+   "lineSeq": 127,
+   "x": 126.7509,
+   "y": 37.72492
+  },
+  {
+   "lineSeq": 128,
+   "x": 126.75058,
+   "y": 37.72443
+  },
+  {
+   "lineSeq": 129,
+   "x": 126.74983,
+   "y": 37.72336
+  },
+  {
+   "lineSeq": 130,
+   "x": 126.74978,
+   "y": 37.72321
+  },
+  {
+   "lineSeq": 131,
+   "x": 126.74963,
+   "y": 37.72309
+  },
+  {
+   "lineSeq": 132,
+   "x": 126.74895,
+   "y": 37.72208
+  },
+  {
+   "lineSeq": 133,
+   "x": 126.74857,
+   "y": 37.72152
+  },
+  {
+   "lineSeq": 134,
+   "x": 126.74833,
+   "y": 37.7211
+  },
+  {
+   "lineSeq": 135,
+   "x": 126.74791,
+   "y": 37.72027
+  },
+  {
+   "lineSeq": 136,
+   "x": 126.74756,
+   "y": 37.7195
+  },
+  {
+   "lineSeq": 137,
+   "x": 126.74732,
+   "y": 37.71885
+  },
+  {
+   "lineSeq": 138,
+   "x": 126.7471,
+   "y": 37.71823
+  },
+  {
+   "lineSeq": 139,
+   "x": 126.74692,
+   "y": 37.71764
+  },
+  {
+   "lineSeq": 140,
+   "x": 126.74685,
+   "y": 37.71735
+  },
+  {
+   "lineSeq": 141,
+   "x": 126.74685,
+   "y": 37.7172
+  },
+  {
+   "lineSeq": 142,
+   "x": 126.74677,
+   "y": 37.71706
+  },
+  {
+   "lineSeq": 143,
+   "x": 126.74673,
+   "y": 37.71685
+  },
+  {
+   "lineSeq": 144,
+   "x": 126.74659,
+   "y": 37.71603
+  },
+  {
+   "lineSeq": 145,
+   "x": 126.7465,
+   "y": 37.71528
+  },
+  {
+   "lineSeq": 146,
+   "x": 126.74645,
+   "y": 37.71474
+  },
+  {
+   "lineSeq": 147,
+   "x": 126.74644,
+   "y": 37.71458
+  },
+  {
+   "lineSeq": 148,
+   "x": 126.74643,
+   "y": 37.71442
+  },
+  {
+   "lineSeq": 149,
+   "x": 126.74647,
+   "y": 37.7143
+  },
+  {
+   "lineSeq": 150,
+   "x": 126.74642,
+   "y": 37.71419
+  },
+  {
+   "lineSeq": 151,
+   "x": 126.74634,
+   "y": 37.71258
+  },
+  {
+   "lineSeq": 152,
+   "x": 126.74638,
+   "y": 37.71245
+  },
+  {
+   "lineSeq": 153,
+   "x": 126.74632,
+   "y": 37.71231
+  },
+  {
+   "lineSeq": 154,
+   "x": 126.74629,
+   "y": 37.71143
+  },
+  {
+   "lineSeq": 155,
+   "x": 126.74624,
+   "y": 37.70996
+  },
+  {
+   "lineSeq": 156,
+   "x": 126.74628,
+   "y": 37.70983
+  },
+  {
+   "lineSeq": 157,
+   "x": 126.74622,
+   "y": 37.7097
+  },
+  {
+   "lineSeq": 158,
+   "x": 126.74615,
+   "y": 37.70726
+  },
+  {
+   "lineSeq": 159,
+   "x": 126.74621,
+   "y": 37.70708
+  },
+  {
+   "lineSeq": 160,
+   "x": 126.74614,
+   "y": 37.70692
+  },
+  {
+   "lineSeq": 161,
+   "x": 126.7461,
+   "y": 37.70608
+  },
+  {
+   "lineSeq": 162,
+   "x": 126.74603,
+   "y": 37.70476
+  },
+  {
+   "lineSeq": 163,
+   "x": 126.74602,
+   "y": 37.70445
+  },
+  {
+   "lineSeq": 164,
+   "x": 126.74604,
+   "y": 37.70422
+  },
+  {
+   "lineSeq": 165,
+   "x": 126.74605,
+   "y": 37.70405
+  },
+  {
+   "lineSeq": 166,
+   "x": 126.74611,
+   "y": 37.70383
+  },
+  {
+   "lineSeq": 167,
+   "x": 126.7462,
+   "y": 37.70358
+  },
+  {
+   "lineSeq": 168,
+   "x": 126.74632,
+   "y": 37.70336
+  },
+  {
+   "lineSeq": 169,
+   "x": 126.74646,
+   "y": 37.70317
+  },
+  {
+   "lineSeq": 170,
+   "x": 126.74701,
+   "y": 37.70252
+  },
+  {
+   "lineSeq": 171,
+   "x": 126.74719,
+   "y": 37.70228
+  },
+  {
+   "lineSeq": 172,
+   "x": 126.74729,
+   "y": 37.7021
+  },
+  {
+   "lineSeq": 173,
+   "x": 126.74738,
+   "y": 37.70191
+  },
+  {
+   "lineSeq": 174,
+   "x": 126.74746,
+   "y": 37.70168
+  },
+  {
+   "lineSeq": 175,
+   "x": 126.74751,
+   "y": 37.70141
+  },
+  {
+   "lineSeq": 176,
+   "x": 126.74753,
+   "y": 37.70109
+  },
+  {
+   "lineSeq": 177,
+   "x": 126.74751,
+   "y": 37.70088
+  },
+  {
+   "lineSeq": 178,
+   "x": 126.74746,
+   "y": 37.70065
+  },
+  {
+   "lineSeq": 179,
+   "x": 126.74738,
+   "y": 37.70045
+  },
+  {
+   "lineSeq": 180,
+   "x": 126.7473,
+   "y": 37.70029
+  },
+  {
+   "lineSeq": 181,
+   "x": 126.74725,
+   "y": 37.70021
+  },
+  {
+   "lineSeq": 182,
+   "x": 126.74714,
+   "y": 37.70004
+  },
+  {
+   "lineSeq": 183,
+   "x": 126.74701,
+   "y": 37.69986
+  },
+  {
+   "lineSeq": 184,
+   "x": 126.74665,
+   "y": 37.69945
+  },
+  {
+   "lineSeq": 185,
+   "x": 126.74663,
+   "y": 37.69937
+  },
+  {
+   "lineSeq": 186,
+   "x": 126.74654,
+   "y": 37.69932
+  },
+  {
+   "lineSeq": 187,
+   "x": 126.74635,
+   "y": 37.69907
+  },
+  {
+   "lineSeq": 188,
+   "x": 126.74625,
+   "y": 37.69889
+  },
+  {
+   "lineSeq": 189,
+   "x": 126.74615,
+   "y": 37.69868
+  },
+  {
+   "lineSeq": 190,
+   "x": 126.74607,
+   "y": 37.69842
+  },
+  {
+   "lineSeq": 191,
+   "x": 126.74604,
+   "y": 37.69832
+  },
+  {
+   "lineSeq": 192,
+   "x": 126.746,
+   "y": 37.6981
+  },
+  {
+   "lineSeq": 193,
+   "x": 126.74599,
+   "y": 37.69793
+  },
+  {
+   "lineSeq": 194,
+   "x": 126.74599,
+   "y": 37.69777
+  },
+  {
+   "lineSeq": 195,
+   "x": 126.746,
+   "y": 37.69765
+  },
+  {
+   "lineSeq": 196,
+   "x": 126.74605,
+   "y": 37.69757
+  },
+  {
+   "lineSeq": 197,
+   "x": 126.74603,
+   "y": 37.69747
+  },
+  {
+   "lineSeq": 198,
+   "x": 126.74611,
+   "y": 37.69718
+  },
+  {
+   "lineSeq": 199,
+   "x": 126.74657,
+   "y": 37.69601
+  },
+  {
+   "lineSeq": 200,
+   "x": 126.74657,
+   "y": 37.69599
+  },
+  {
+   "lineSeq": 201,
+   "x": 126.74668,
+   "y": 37.6956
+  },
+  {
+   "lineSeq": 202,
+   "x": 126.74672,
+   "y": 37.69533
+  },
+  {
+   "lineSeq": 203,
+   "x": 126.74679,
+   "y": 37.69524
+  },
+  {
+   "lineSeq": 204,
+   "x": 126.74675,
+   "y": 37.69513
+  },
+  {
+   "lineSeq": 205,
+   "x": 126.74678,
+   "y": 37.69478
+  },
+  {
+   "lineSeq": 206,
+   "x": 126.74679,
+   "y": 37.6945
+  },
+  {
+   "lineSeq": 207,
+   "x": 126.74677,
+   "y": 37.69418
+  },
+  {
+   "lineSeq": 208,
+   "x": 126.74673,
+   "y": 37.69385
+  },
+  {
+   "lineSeq": 209,
+   "x": 126.74665,
+   "y": 37.69348
+  },
+  {
+   "lineSeq": 210,
+   "x": 126.74662,
+   "y": 37.69338
+  },
+  {
+   "lineSeq": 211,
+   "x": 126.74648,
+   "y": 37.69282
+  },
+  {
+   "lineSeq": 212,
+   "x": 126.74649,
+   "y": 37.6927
+  },
+  {
+   "lineSeq": 213,
+   "x": 126.74637,
+   "y": 37.69259
+  },
+  {
+   "lineSeq": 214,
+   "x": 126.74439,
+   "y": 37.68853
+  },
+  {
+   "lineSeq": 215,
+   "x": 126.74413,
+   "y": 37.68809
+  },
+  {
+   "lineSeq": 216,
+   "x": 126.74375,
+   "y": 37.68756
+  },
+  {
+   "lineSeq": 217,
+   "x": 126.74339,
+   "y": 37.68716
+  },
+  {
+   "lineSeq": 218,
+   "x": 126.74301,
+   "y": 37.68678
+  },
+  {
+   "lineSeq": 219,
+   "x": 126.74264,
+   "y": 37.68647
+  },
+  {
+   "lineSeq": 220,
+   "x": 126.74213,
+   "y": 37.68611
+  },
+  {
+   "lineSeq": 221,
+   "x": 126.7419,
+   "y": 37.68597
+  },
+  {
+   "lineSeq": 222,
+   "x": 126.74085,
+   "y": 37.68532
+  },
+  {
+   "lineSeq": 223,
+   "x": 126.74079,
+   "y": 37.68525
+  },
+  {
+   "lineSeq": 224,
+   "x": 126.74069,
+   "y": 37.68522
+  },
+  {
+   "lineSeq": 225,
+   "x": 126.73911,
+   "y": 37.68427
+  },
+  {
+   "lineSeq": 226,
+   "x": 126.73878,
+   "y": 37.68405
+  },
+  {
+   "lineSeq": 227,
+   "x": 126.73845,
+   "y": 37.68381
+  },
+  {
+   "lineSeq": 228,
+   "x": 126.73825,
+   "y": 37.68364
+  },
+  {
+   "lineSeq": 229,
+   "x": 126.738,
+   "y": 37.68342
+  },
+  {
+   "lineSeq": 230,
+   "x": 126.73773,
+   "y": 37.68316
+  },
+  {
+   "lineSeq": 231,
+   "x": 126.73742,
+   "y": 37.68281
+  },
+  {
+   "lineSeq": 232,
+   "x": 126.73723,
+   "y": 37.68255
+  },
+  {
+   "lineSeq": 233,
+   "x": 126.73627,
+   "y": 37.68121
+  },
+  {
+   "lineSeq": 234,
+   "x": 126.73624,
+   "y": 37.68113
+  },
+  {
+   "lineSeq": 235,
+   "x": 126.73637,
+   "y": 37.68103
+  },
+  {
+   "lineSeq": 236,
+   "x": 126.73881,
+   "y": 37.67995
+  },
+  {
+   "lineSeq": 237,
+   "x": 126.73896,
+   "y": 37.67992
+  },
+  {
+   "lineSeq": 238,
+   "x": 126.73908,
+   "y": 37.67983
+  },
+  {
+   "lineSeq": 239,
+   "x": 126.74009,
+   "y": 37.67939
+  },
+  {
+   "lineSeq": 240,
+   "x": 126.7412,
+   "y": 37.67891
+  },
+  {
+   "lineSeq": 241,
+   "x": 126.74136,
+   "y": 37.67888
+  },
+  {
+   "lineSeq": 242,
+   "x": 126.7415,
+   "y": 37.67878
+  },
+  {
+   "lineSeq": 243,
+   "x": 126.74384,
+   "y": 37.67776
+  },
+  {
+   "lineSeq": 244,
+   "x": 126.74566,
+   "y": 37.67696
+  },
+  {
+   "lineSeq": 245,
+   "x": 126.74581,
+   "y": 37.67693
+  },
+  {
+   "lineSeq": 246,
+   "x": 126.74592,
+   "y": 37.67684
+  },
+  {
+   "lineSeq": 247,
+   "x": 126.74627,
+   "y": 37.67668
+  },
+  {
+   "lineSeq": 248,
+   "x": 126.74643,
+   "y": 37.67664
+  },
+  {
+   "lineSeq": 249,
+   "x": 126.74654,
+   "y": 37.67656
+  },
+  {
+   "lineSeq": 250,
+   "x": 126.74752,
+   "y": 37.67613
+  },
+  {
+   "lineSeq": 251,
+   "x": 126.74839,
+   "y": 37.67576
+  },
+  {
+   "lineSeq": 252,
+   "x": 126.74859,
+   "y": 37.67567
+  },
+  {
+   "lineSeq": 253,
+   "x": 126.74921,
+   "y": 37.6754
+  },
+  {
+   "lineSeq": 254,
+   "x": 126.74934,
+   "y": 37.67538
+  },
+  {
+   "lineSeq": 255,
+   "x": 126.74945,
+   "y": 37.67546
+  },
+  {
+   "lineSeq": 256,
+   "x": 126.74988,
+   "y": 37.6761
+  },
+  {
+   "lineSeq": 257,
+   "x": 126.74991,
+   "y": 37.67622
+  },
+  {
+   "lineSeq": 258,
+   "x": 126.75004,
+   "y": 37.67633
+  },
+  {
+   "lineSeq": 259,
+   "x": 126.7512,
+   "y": 37.678
+  },
+  {
+   "lineSeq": 260,
+   "x": 126.75219,
+   "y": 37.67943
+  },
+  {
+   "lineSeq": 261,
+   "x": 126.75224,
+   "y": 37.67956
+  },
+  {
+   "lineSeq": 262,
+   "x": 126.75235,
+   "y": 37.67949
+  },
+  {
+   "lineSeq": 263,
+   "x": 126.75474,
+   "y": 37.67844
+  },
+  {
+   "lineSeq": 264,
+   "x": 126.75667,
+   "y": 37.67759
+  },
+  {
+   "lineSeq": 265,
+   "x": 126.75683,
+   "y": 37.67756
+  },
+  {
+   "lineSeq": 266,
+   "x": 126.75695,
+   "y": 37.67747
+  },
+  {
+   "lineSeq": 267,
+   "x": 126.75879,
+   "y": 37.67666
+  },
+  {
+   "lineSeq": 268,
+   "x": 126.76093,
+   "y": 37.67572
+  },
+  {
+   "lineSeq": 269,
+   "x": 126.7611,
+   "y": 37.67568
+  },
+  {
+   "lineSeq": 270,
+   "x": 126.76122,
+   "y": 37.67559
+  },
+  {
+   "lineSeq": 271,
+   "x": 126.7639,
+   "y": 37.67443
+  },
+  {
+   "lineSeq": 272,
+   "x": 126.76705,
+   "y": 37.67307
+  },
+  {
+   "lineSeq": 273,
+   "x": 126.7672,
+   "y": 37.67304
+  },
+  {
+   "lineSeq": 274,
+   "x": 126.76708,
+   "y": 37.67296
+  },
+  {
+   "lineSeq": 275,
+   "x": 126.76616,
+   "y": 37.67162
+  },
+  {
+   "lineSeq": 276,
+   "x": 126.76487,
+   "y": 37.66975
+  },
+  {
+   "lineSeq": 277,
+   "x": 126.76483,
+   "y": 37.66961
+  },
+  {
+   "lineSeq": 278,
+   "x": 126.76469,
+   "y": 37.66953
+  },
+  {
+   "lineSeq": 279,
+   "x": 126.76421,
+   "y": 37.66898
+  },
+  {
+   "lineSeq": 280,
+   "x": 126.76415,
+   "y": 37.66884
+  },
+  {
+   "lineSeq": 281,
+   "x": 126.76426,
+   "y": 37.66873
+  },
+  {
+   "lineSeq": 282,
+   "x": 126.7651,
+   "y": 37.66819
+  },
+  {
+   "lineSeq": 283,
+   "x": 126.7654,
+   "y": 37.66798
+  },
+  {
+   "lineSeq": 284,
+   "x": 126.76571,
+   "y": 37.66777
+  },
+  {
+   "lineSeq": 285,
+   "x": 126.76655,
+   "y": 37.66704
+  },
+  {
+   "lineSeq": 286,
+   "x": 126.76728,
+   "y": 37.66636
+  },
+  {
+   "lineSeq": 287,
+   "x": 126.76746,
+   "y": 37.66625
+  },
+  {
+   "lineSeq": 288,
+   "x": 126.76754,
+   "y": 37.66609
+  },
+  {
+   "lineSeq": 289,
+   "x": 126.76951,
+   "y": 37.66409
+  },
+  {
+   "lineSeq": 290,
+   "x": 126.76962,
+   "y": 37.66398
+  },
+  {
+   "lineSeq": 291,
+   "x": 126.76977,
+   "y": 37.66389
+  },
+  {
+   "lineSeq": 292,
+   "x": 126.76985,
+   "y": 37.66376
+  },
+  {
+   "lineSeq": 293,
+   "x": 126.77083,
+   "y": 37.66275
+  },
+  {
+   "lineSeq": 294,
+   "x": 126.77097,
+   "y": 37.66266
+  },
+  {
+   "lineSeq": 295,
+   "x": 126.77105,
+   "y": 37.66252
+  },
+  {
+   "lineSeq": 296,
+   "x": 126.77124,
+   "y": 37.66233
+  },
+  {
+   "lineSeq": 297,
+   "x": 126.77139,
+   "y": 37.66224
+  },
+  {
+   "lineSeq": 298,
+   "x": 126.77146,
+   "y": 37.66211
+  },
+  {
+   "lineSeq": 299,
+   "x": 126.77193,
+   "y": 37.6616
+  },
+  {
+   "lineSeq": 300,
+   "x": 126.77221,
+   "y": 37.66127
+  },
+  {
+   "lineSeq": 301,
+   "x": 126.77245,
+   "y": 37.66096
+  },
+  {
+   "lineSeq": 302,
+   "x": 126.77291,
+   "y": 37.66025
+  },
+  {
+   "lineSeq": 303,
+   "x": 126.77304,
+   "y": 37.66013
+  },
+  {
+   "lineSeq": 304,
+   "x": 126.77308,
+   "y": 37.65996
+  },
+  {
+   "lineSeq": 305,
+   "x": 126.7736,
+   "y": 37.65907
+  },
+  {
+   "lineSeq": 306,
+   "x": 126.77373,
+   "y": 37.65894
+  },
+  {
+   "lineSeq": 307,
+   "x": 126.77377,
+   "y": 37.65878
+  },
+  {
+   "lineSeq": 308,
+   "x": 126.77432,
+   "y": 37.65784
+  },
+  {
+   "lineSeq": 309,
+   "x": 126.77435,
+   "y": 37.6578
+  },
+  {
+   "lineSeq": 310,
+   "x": 126.77449,
+   "y": 37.65764
+  },
+  {
+   "lineSeq": 311,
+   "x": 126.77453,
+   "y": 37.65747
+  },
+  {
+   "lineSeq": 312,
+   "x": 126.77589,
+   "y": 37.65517
+  },
+  {
+   "lineSeq": 313,
+   "x": 126.77603,
+   "y": 37.65504
+  },
+  {
+   "lineSeq": 314,
+   "x": 126.77607,
+   "y": 37.65487
+  },
+  {
+   "lineSeq": 315,
+   "x": 126.77752,
+   "y": 37.65237
+  },
+  {
+   "lineSeq": 316,
+   "x": 126.77814,
+   "y": 37.65129
+  },
+  {
+   "lineSeq": 317,
+   "x": 126.77859,
+   "y": 37.65057
+  },
+  {
+   "lineSeq": 318,
+   "x": 126.77873,
+   "y": 37.65044
+  },
+  {
+   "lineSeq": 319,
+   "x": 126.77881,
+   "y": 37.65029
+  },
+  {
+   "lineSeq": 320,
+   "x": 126.77919,
+   "y": 37.64985
+  },
+  {
+   "lineSeq": 321,
+   "x": 126.77946,
+   "y": 37.64957
+  },
+  {
+   "lineSeq": 322,
+   "x": 126.77986,
+   "y": 37.6492
+  },
+  {
+   "lineSeq": 323,
+   "x": 126.78045,
+   "y": 37.64876
+  },
+  {
+   "lineSeq": 324,
+   "x": 126.78075,
+   "y": 37.64853
+  },
+  {
+   "lineSeq": 325,
+   "x": 126.7809,
+   "y": 37.64842
+  },
+  {
+   "lineSeq": 326,
+   "x": 126.78107,
+   "y": 37.64834
+  },
+  {
+   "lineSeq": 327,
+   "x": 126.78116,
+   "y": 37.64822
+  },
+  {
+   "lineSeq": 328,
+   "x": 126.78436,
+   "y": 37.64579
+  },
+  {
+   "lineSeq": 329,
+   "x": 126.78442,
+   "y": 37.64575
+  },
+  {
+   "lineSeq": 330,
+   "x": 126.78458,
+   "y": 37.64568
+  },
+  {
+   "lineSeq": 331,
+   "x": 126.78467,
+   "y": 37.64556
+  },
+  {
+   "lineSeq": 332,
+   "x": 126.78605,
+   "y": 37.64451
+  },
+  {
+   "lineSeq": 333,
+   "x": 126.78712,
+   "y": 37.64371
+  },
+  {
+   "lineSeq": 334,
+   "x": 126.78727,
+   "y": 37.64363
+  },
+  {
+   "lineSeq": 335,
+   "x": 126.78738,
+   "y": 37.64351
+  },
+  {
+   "lineSeq": 336,
+   "x": 126.78783,
+   "y": 37.64317
+  },
+  {
+   "lineSeq": 337,
+   "x": 126.788,
+   "y": 37.64309
+  },
+  {
+   "lineSeq": 338,
+   "x": 126.78811,
+   "y": 37.64296
+  },
+  {
+   "lineSeq": 339,
+   "x": 126.78932,
+   "y": 37.64206
+  },
+  {
+   "lineSeq": 340,
+   "x": 126.78947,
+   "y": 37.64199
+  },
+  {
+   "lineSeq": 341,
+   "x": 126.78959,
+   "y": 37.64185
+  },
+  {
+   "lineSeq": 342,
+   "x": 126.79062,
+   "y": 37.64109
+  },
+  {
+   "lineSeq": 343,
+   "x": 126.79065,
+   "y": 37.64106
+  },
+  {
+   "lineSeq": 344,
+   "x": 126.79079,
+   "y": 37.641
+  },
+  {
+   "lineSeq": 345,
+   "x": 126.79088,
+   "y": 37.64089
+  },
+  {
+   "lineSeq": 346,
+   "x": 126.79196,
+   "y": 37.64008
+  },
+  {
+   "lineSeq": 347,
+   "x": 126.79211,
+   "y": 37.64
+  },
+  {
+   "lineSeq": 348,
+   "x": 126.79221,
+   "y": 37.63989
+  },
+  {
+   "lineSeq": 349,
+   "x": 126.79459,
+   "y": 37.63808
+  },
+  {
+   "lineSeq": 350,
+   "x": 126.7962,
+   "y": 37.63681
+  },
+  {
+   "lineSeq": 351,
+   "x": 126.79854,
+   "y": 37.6351
+  },
+  {
+   "lineSeq": 352,
+   "x": 126.7996,
+   "y": 37.63424
+  },
+  {
+   "lineSeq": 353,
+   "x": 126.80022,
+   "y": 37.63379
+  },
+  {
+   "lineSeq": 354,
+   "x": 126.80064,
+   "y": 37.63351
+  },
+  {
+   "lineSeq": 355,
+   "x": 126.80101,
+   "y": 37.6333
+  },
+  {
+   "lineSeq": 356,
+   "x": 126.80154,
+   "y": 37.63301
+  },
+  {
+   "lineSeq": 357,
+   "x": 126.80201,
+   "y": 37.63282
+  },
+  {
+   "lineSeq": 358,
+   "x": 126.80286,
+   "y": 37.63254
+  },
+  {
+   "lineSeq": 359,
+   "x": 126.80366,
+   "y": 37.63234
+  },
+  {
+   "lineSeq": 360,
+   "x": 126.80411,
+   "y": 37.63225
+  },
+  {
+   "lineSeq": 361,
+   "x": 126.80882,
+   "y": 37.6316
+  },
+  {
+   "lineSeq": 362,
+   "x": 126.80973,
+   "y": 37.63148
+  },
+  {
+   "lineSeq": 363,
+   "x": 126.81312,
+   "y": 37.63103
+  },
+  {
+   "lineSeq": 364,
+   "x": 126.81734,
+   "y": 37.63046
+  },
+  {
+   "lineSeq": 365,
+   "x": 126.81896,
+   "y": 37.63022
+  },
+  {
+   "lineSeq": 366,
+   "x": 126.81973,
+   "y": 37.63005
+  },
+  {
+   "lineSeq": 367,
+   "x": 126.82245,
+   "y": 37.6292
+  },
+  {
+   "lineSeq": 368,
+   "x": 126.82663,
+   "y": 37.6279
+  },
+  {
+   "lineSeq": 369,
+   "x": 126.82708,
+   "y": 37.62775
+  },
+  {
+   "lineSeq": 370,
+   "x": 126.82719,
+   "y": 37.62771
+  },
+  {
+   "lineSeq": 371,
+   "x": 126.82814,
+   "y": 37.62745
+  },
+  {
+   "lineSeq": 372,
+   "x": 126.82828,
+   "y": 37.62745
+  },
+  {
+   "lineSeq": 373,
+   "x": 126.82841,
+   "y": 37.62736
+  },
+  {
+   "lineSeq": 374,
+   "x": 126.83021,
+   "y": 37.62677
+  },
+  {
+   "lineSeq": 375,
+   "x": 126.83032,
+   "y": 37.62673
+  },
+  {
+   "lineSeq": 376,
+   "x": 126.83074,
+   "y": 37.62653
+  },
+  {
+   "lineSeq": 377,
+   "x": 126.8317,
+   "y": 37.62594
+  },
+  {
+   "lineSeq": 378,
+   "x": 126.83188,
+   "y": 37.62588
+  },
+  {
+   "lineSeq": 379,
+   "x": 126.83201,
+   "y": 37.62575
+  },
+  {
+   "lineSeq": 380,
+   "x": 126.83412,
+   "y": 37.6244
+  },
+  {
+   "lineSeq": 381,
+   "x": 126.83433,
+   "y": 37.62432
+  },
+  {
+   "lineSeq": 382,
+   "x": 126.83446,
+   "y": 37.62418
+  },
+  {
+   "lineSeq": 383,
+   "x": 126.83658,
+   "y": 37.62283
+  },
+  {
+   "lineSeq": 384,
+   "x": 126.83678,
+   "y": 37.62275
+  },
+  {
+   "lineSeq": 385,
+   "x": 126.83686,
+   "y": 37.62265
+  },
+  {
+   "lineSeq": 386,
+   "x": 126.83755,
+   "y": 37.62221
+  },
+  {
+   "lineSeq": 387,
+   "x": 126.83956,
+   "y": 37.6209
+  },
+  {
+   "lineSeq": 388,
+   "x": 126.83974,
+   "y": 37.62085
+  },
+  {
+   "lineSeq": 389,
+   "x": 126.83985,
+   "y": 37.62073
+  },
+  {
+   "lineSeq": 390,
+   "x": 126.84178,
+   "y": 37.6195
+  },
+  {
+   "lineSeq": 391,
+   "x": 126.84209,
+   "y": 37.61934
+  },
+  {
+   "lineSeq": 392,
+   "x": 126.84219,
+   "y": 37.61928
+  },
+  {
+   "lineSeq": 393,
+   "x": 126.84252,
+   "y": 37.61913
+  },
+  {
+   "lineSeq": 394,
+   "x": 126.84402,
+   "y": 37.61862
+  },
+  {
+   "lineSeq": 395,
+   "x": 126.84418,
+   "y": 37.6186
+  },
+  {
+   "lineSeq": 396,
+   "x": 126.8443,
+   "y": 37.61853
+  },
+  {
+   "lineSeq": 397,
+   "x": 126.84537,
+   "y": 37.61816
+  },
+  {
+   "lineSeq": 398,
+   "x": 126.84553,
+   "y": 37.61813
+  },
+  {
+   "lineSeq": 399,
+   "x": 126.84567,
+   "y": 37.61806
+  },
+  {
+   "lineSeq": 400,
+   "x": 126.84662,
+   "y": 37.61775
+  },
+  {
+   "lineSeq": 401,
+   "x": 126.84677,
+   "y": 37.61771
+  },
+  {
+   "lineSeq": 402,
+   "x": 126.84691,
+   "y": 37.61768
+  },
+  {
+   "lineSeq": 403,
+   "x": 126.84702,
+   "y": 37.61761
+  },
+  {
+   "lineSeq": 404,
+   "x": 126.84942,
+   "y": 37.61676
+  },
+  {
+   "lineSeq": 405,
+   "x": 126.84958,
+   "y": 37.61674
+  },
+  {
+   "lineSeq": 406,
+   "x": 126.84973,
+   "y": 37.61666
+  },
+  {
+   "lineSeq": 407,
+   "x": 126.84999,
+   "y": 37.61654
+  },
+  {
+   "lineSeq": 408,
+   "x": 126.85058,
+   "y": 37.61624
+  },
+  {
+   "lineSeq": 409,
+   "x": 126.85132,
+   "y": 37.61578
+  },
+  {
+   "lineSeq": 410,
+   "x": 126.85165,
+   "y": 37.61558
+  },
+  {
+   "lineSeq": 411,
+   "x": 126.85179,
+   "y": 37.61553
+  },
+  {
+   "lineSeq": 412,
+   "x": 126.85186,
+   "y": 37.61545
+  },
+  {
+   "lineSeq": 413,
+   "x": 126.85552,
+   "y": 37.61314
+  },
+  {
+   "lineSeq": 414,
+   "x": 126.85923,
+   "y": 37.61074
+  },
+  {
+   "lineSeq": 415,
+   "x": 126.86126,
+   "y": 37.60942
+  },
+  {
+   "lineSeq": 416,
+   "x": 126.86232,
+   "y": 37.60874
+  },
+  {
+   "lineSeq": 417,
+   "x": 126.86232,
+   "y": 37.60874
+  },
+  {
+   "lineSeq": 418,
+   "x": 126.86329,
+   "y": 37.60812
+  },
+  {
+   "lineSeq": 419,
+   "x": 126.86342,
+   "y": 37.60806
+  },
+  {
+   "lineSeq": 420,
+   "x": 126.86352,
+   "y": 37.60797
+  },
+  {
+   "lineSeq": 421,
+   "x": 126.86383,
+   "y": 37.60776
+  },
+  {
+   "lineSeq": 422,
+   "x": 126.86417,
+   "y": 37.60754
+  },
+  {
+   "lineSeq": 423,
+   "x": 126.86427,
+   "y": 37.60748
+  },
+  {
+   "lineSeq": 424,
+   "x": 126.86634,
+   "y": 37.60615
+  },
+  {
+   "lineSeq": 425,
+   "x": 126.86756,
+   "y": 37.60537
+  },
+  {
+   "lineSeq": 426,
+   "x": 126.86855,
+   "y": 37.60471
+  },
+  {
+   "lineSeq": 427,
+   "x": 126.86867,
+   "y": 37.60467
+  },
+  {
+   "lineSeq": 428,
+   "x": 126.86867,
+   "y": 37.60459
+  },
+  {
+   "lineSeq": 429,
+   "x": 126.86885,
+   "y": 37.60415
+  },
+  {
+   "lineSeq": 430,
+   "x": 126.86906,
+   "y": 37.6036
+  },
+  {
+   "lineSeq": 431,
+   "x": 126.86917,
+   "y": 37.60331
+  },
+  {
+   "lineSeq": 432,
+   "x": 126.86926,
+   "y": 37.60313
+  },
+  {
+   "lineSeq": 433,
+   "x": 126.86934,
+   "y": 37.60302
+  },
+  {
+   "lineSeq": 434,
+   "x": 126.86948,
+   "y": 37.60282
+  },
+  {
+   "lineSeq": 435,
+   "x": 126.87038,
+   "y": 37.60168
+  },
+  {
+   "lineSeq": 436,
+   "x": 126.87061,
+   "y": 37.6014
+  },
+  {
+   "lineSeq": 437,
+   "x": 126.87077,
+   "y": 37.60123
+  },
+  {
+   "lineSeq": 438,
+   "x": 126.87101,
+   "y": 37.601
+  },
+  {
+   "lineSeq": 439,
+   "x": 126.87191,
+   "y": 37.60022
+  },
+  {
+   "lineSeq": 440,
+   "x": 126.87205,
+   "y": 37.60012
+  },
+  {
+   "lineSeq": 441,
+   "x": 126.87223,
+   "y": 37.60003
+  },
+  {
+   "lineSeq": 442,
+   "x": 126.87242,
+   "y": 37.59996
+  },
+  {
+   "lineSeq": 443,
+   "x": 126.87287,
+   "y": 37.59985
+  },
+  {
+   "lineSeq": 444,
+   "x": 126.87325,
+   "y": 37.59979
+  },
+  {
+   "lineSeq": 445,
+   "x": 126.87336,
+   "y": 37.59979
+  },
+  {
+   "lineSeq": 446,
+   "x": 126.87341,
+   "y": 37.5997
+  },
+  {
+   "lineSeq": 447,
+   "x": 126.87424,
+   "y": 37.59885
+  },
+  {
+   "lineSeq": 448,
+   "x": 126.87526,
+   "y": 37.5978
+  },
+  {
+   "lineSeq": 449,
+   "x": 126.87536,
+   "y": 37.59775
+  },
+  {
+   "lineSeq": 450,
+   "x": 126.8754,
+   "y": 37.59766
+  },
+  {
+   "lineSeq": 451,
+   "x": 126.87629,
+   "y": 37.59674
+  },
+  {
+   "lineSeq": 452,
+   "x": 126.87757,
+   "y": 37.59556
+  },
+  {
+   "lineSeq": 453,
+   "x": 126.87796,
+   "y": 37.59521
+  },
+  {
+   "lineSeq": 454,
+   "x": 126.87807,
+   "y": 37.59515
+  },
+  {
+   "lineSeq": 455,
+   "x": 126.87812,
+   "y": 37.59506
+  },
+  {
+   "lineSeq": 456,
+   "x": 126.88011,
+   "y": 37.59325
+  },
+  {
+   "lineSeq": 457,
+   "x": 126.88202,
+   "y": 37.59152
+  },
+  {
+   "lineSeq": 458,
+   "x": 126.88213,
+   "y": 37.59146
+  },
+  {
+   "lineSeq": 459,
+   "x": 126.88218,
+   "y": 37.59138
+  },
+  {
+   "lineSeq": 460,
+   "x": 126.88248,
+   "y": 37.5911
+  },
+  {
+   "lineSeq": 461,
+   "x": 126.88257,
+   "y": 37.59106
+  },
+  {
+   "lineSeq": 462,
+   "x": 126.88262,
+   "y": 37.59098
+  },
+  {
+   "lineSeq": 463,
+   "x": 126.88417,
+   "y": 37.58965
+  },
+  {
+   "lineSeq": 464,
+   "x": 126.88714,
+   "y": 37.58712
+  },
+  {
+   "lineSeq": 465,
+   "x": 126.88723,
+   "y": 37.58708
+  },
+  {
+   "lineSeq": 466,
+   "x": 126.88728,
+   "y": 37.587
+  },
+  {
+   "lineSeq": 467,
+   "x": 126.88856,
+   "y": 37.5859
+  },
+  {
+   "lineSeq": 468,
+   "x": 126.88858,
+   "y": 37.58588
+  },
+  {
+   "lineSeq": 469,
+   "x": 126.88957,
+   "y": 37.58504
+  },
+  {
+   "lineSeq": 470,
+   "x": 126.8899,
+   "y": 37.58479
+  },
+  {
+   "lineSeq": 471,
+   "x": 126.89021,
+   "y": 37.58462
+  },
+  {
+   "lineSeq": 472,
+   "x": 126.89153,
+   "y": 37.58406
+  },
+  {
+   "lineSeq": 473,
+   "x": 126.89167,
+   "y": 37.58404
+  },
+  {
+   "lineSeq": 474,
+   "x": 126.89176,
+   "y": 37.58397
+  },
+  {
+   "lineSeq": 475,
+   "x": 126.89333,
+   "y": 37.58331
+  },
+  {
+   "lineSeq": 476,
+   "x": 126.89335,
+   "y": 37.58331
+  },
+  {
+   "lineSeq": 477,
+   "x": 126.89393,
+   "y": 37.58302
+  },
+  {
+   "lineSeq": 478,
+   "x": 126.89533,
+   "y": 37.58221
+  },
+  {
+   "lineSeq": 479,
+   "x": 126.89545,
+   "y": 37.58219
+  },
+  {
+   "lineSeq": 480,
+   "x": 126.89552,
+   "y": 37.5821
+  },
+  {
+   "lineSeq": 481,
+   "x": 126.90057,
+   "y": 37.5791
+  },
+  {
+   "lineSeq": 482,
+   "x": 126.90059,
+   "y": 37.57908
+  },
+  {
+   "lineSeq": 483,
+   "x": 126.90081,
+   "y": 37.57894
+  },
+  {
+   "lineSeq": 484,
+   "x": 126.90106,
+   "y": 37.57876
+  },
+  {
+   "lineSeq": 485,
+   "x": 126.90177,
+   "y": 37.57814
+  },
+  {
+   "lineSeq": 486,
+   "x": 126.90187,
+   "y": 37.57809
+  },
+  {
+   "lineSeq": 487,
+   "x": 126.90193,
+   "y": 37.578
+  },
+  {
+   "lineSeq": 488,
+   "x": 126.90259,
+   "y": 37.57739
+  },
+  {
+   "lineSeq": 489,
+   "x": 126.90271,
+   "y": 37.57734
+  },
+  {
+   "lineSeq": 490,
+   "x": 126.90274,
+   "y": 37.57726
+  },
+  {
+   "lineSeq": 491,
+   "x": 126.90326,
+   "y": 37.57677
+  },
+  {
+   "lineSeq": 492,
+   "x": 126.90336,
+   "y": 37.57672
+  },
+  {
+   "lineSeq": 493,
+   "x": 126.90343,
+   "y": 37.57662
+  },
+  {
+   "lineSeq": 494,
+   "x": 126.90462,
+   "y": 37.57555
+  },
+  {
+   "lineSeq": 495,
+   "x": 126.9059,
+   "y": 37.5744
+  },
+  {
+   "lineSeq": 496,
+   "x": 126.90602,
+   "y": 37.57432
+  },
+  {
+   "lineSeq": 497,
+   "x": 126.90609,
+   "y": 37.57423
+  },
+  {
+   "lineSeq": 498,
+   "x": 126.90735,
+   "y": 37.57309
+  },
+  {
+   "lineSeq": 499,
+   "x": 126.90757,
+   "y": 37.5729
+  },
+  {
+   "lineSeq": 500,
+   "x": 126.90783,
+   "y": 37.5727
+  },
+  {
+   "lineSeq": 501,
+   "x": 126.90804,
+   "y": 37.57258
+  },
+  {
+   "lineSeq": 502,
+   "x": 126.90972,
+   "y": 37.57177
+  },
+  {
+   "lineSeq": 503,
+   "x": 126.91275,
+   "y": 37.57032
+  },
+  {
+   "lineSeq": 504,
+   "x": 126.91289,
+   "y": 37.57028
+  },
+  {
+   "lineSeq": 505,
+   "x": 126.91301,
+   "y": 37.5702
+  },
+  {
+   "lineSeq": 506,
+   "x": 126.91516,
+   "y": 37.56917
+  },
+  {
+   "lineSeq": 507,
+   "x": 126.91639,
+   "y": 37.56858
+  },
+  {
+   "lineSeq": 508,
+   "x": 126.91652,
+   "y": 37.56853
+  },
+  {
+   "lineSeq": 509,
+   "x": 126.91663,
+   "y": 37.56846
+  },
+  {
+   "lineSeq": 510,
+   "x": 126.91778,
+   "y": 37.56786
+  },
+  {
+   "lineSeq": 511,
+   "x": 126.91824,
+   "y": 37.56759
+  },
+  {
+   "lineSeq": 512,
+   "x": 126.91865,
+   "y": 37.56735
+  },
+  {
+   "lineSeq": 513,
+   "x": 126.91949,
+   "y": 37.56703
+  },
+  {
+   "lineSeq": 514,
+   "x": 126.92013,
+   "y": 37.56687
+  },
+  {
+   "lineSeq": 515,
+   "x": 126.92145,
+   "y": 37.56666
+  },
+  {
+   "lineSeq": 516,
+   "x": 126.92164,
+   "y": 37.56668
+  },
+  {
+   "lineSeq": 517,
+   "x": 126.92181,
+   "y": 37.56662
+  },
+  {
+   "lineSeq": 518,
+   "x": 126.92281,
+   "y": 37.56646
+  },
+  {
+   "lineSeq": 519,
+   "x": 126.92328,
+   "y": 37.56641
+  },
+  {
+   "lineSeq": 520,
+   "x": 126.92534,
+   "y": 37.56635
+  },
+  {
+   "lineSeq": 521,
+   "x": 126.92571,
+   "y": 37.56633
+  },
+  {
+   "lineSeq": 522,
+   "x": 126.92617,
+   "y": 37.56627
+  },
+  {
+   "lineSeq": 523,
+   "x": 126.92679,
+   "y": 37.56612
+  },
+  {
+   "lineSeq": 524,
+   "x": 126.92718,
+   "y": 37.56599
+  },
+  {
+   "lineSeq": 525,
+   "x": 126.92761,
+   "y": 37.56581
+  },
+  {
+   "lineSeq": 526,
+   "x": 126.92795,
+   "y": 37.56562
+  },
+  {
+   "lineSeq": 527,
+   "x": 126.92809,
+   "y": 37.56556
+  },
+  {
+   "lineSeq": 528,
+   "x": 126.92819,
+   "y": 37.56546
+  },
+  {
+   "lineSeq": 529,
+   "x": 126.92853,
+   "y": 37.5652
+  },
+  {
+   "lineSeq": 530,
+   "x": 126.92879,
+   "y": 37.56497
+  },
+  {
+   "lineSeq": 531,
+   "x": 126.9301,
+   "y": 37.56374
+  },
+  {
+   "lineSeq": 532,
+   "x": 126.93023,
+   "y": 37.56369
+  },
+  {
+   "lineSeq": 533,
+   "x": 126.9303,
+   "y": 37.56357
+  },
+  {
+   "lineSeq": 534,
+   "x": 126.93212,
+   "y": 37.56188
+  },
+  {
+   "lineSeq": 535,
+   "x": 126.93314,
+   "y": 37.56093
+  },
+  {
+   "lineSeq": 536,
+   "x": 126.93344,
+   "y": 37.56069
+  },
+  {
+   "lineSeq": 537,
+   "x": 126.93375,
+   "y": 37.56049
+  },
+  {
+   "lineSeq": 538,
+   "x": 126.93424,
+   "y": 37.56018
+  },
+  {
+   "lineSeq": 539,
+   "x": 126.93445,
+   "y": 37.56008
+  },
+  {
+   "lineSeq": 540,
+   "x": 126.93471,
+   "y": 37.56001
+  },
+  {
+   "lineSeq": 541,
+   "x": 126.93501,
+   "y": 37.56
+  },
+  {
+   "lineSeq": 542,
+   "x": 126.93537,
+   "y": 37.56002
+  },
+  {
+   "lineSeq": 543,
+   "x": 126.93569,
+   "y": 37.56004
+  },
+  {
+   "lineSeq": 544,
+   "x": 126.9368,
+   "y": 37.56006
+  },
+  {
+   "lineSeq": 545,
+   "x": 126.93695,
+   "y": 37.56009
+  },
+  {
+   "lineSeq": 546,
+   "x": 126.93691,
+   "y": 37.55997
+  },
+  {
+   "lineSeq": 547,
+   "x": 126.9369,
+   "y": 37.55736
+  },
+  {
+   "lineSeq": 548,
+   "x": 126.93693,
+   "y": 37.55728
+  },
+  {
+   "lineSeq": 549,
+   "x": 126.9369,
+   "y": 37.55721
+  },
+  {
+   "lineSeq": 550,
+   "x": 126.93688,
+   "y": 37.55657
+  },
+  {
+   "lineSeq": 551,
+   "x": 126.93685,
+   "y": 37.55527
+  },
+  {
+   "lineSeq": 552,
+   "x": 126.9369,
+   "y": 37.55517
+  },
+  {
+   "lineSeq": 553,
+   "x": 126.93677,
+   "y": 37.55525
+  },
+  {
+   "lineSeq": 554,
+   "x": 126.93627,
+   "y": 37.55541
+  },
+  {
+   "lineSeq": 555,
+   "x": 126.93297,
+   "y": 37.55656
+  },
+  {
+   "lineSeq": 556,
+   "x": 126.9319,
+   "y": 37.55694
+  },
+  {
+   "lineSeq": 557,
+   "x": 126.93172,
+   "y": 37.55696
+  },
+  {
+   "lineSeq": 558,
+   "x": 126.93159,
+   "y": 37.55705
+  },
+  {
+   "lineSeq": 559,
+   "x": 126.92744,
+   "y": 37.55856
+  },
+  {
+   "lineSeq": 560,
+   "x": 126.92717,
+   "y": 37.55866
+  },
+  {
+   "lineSeq": 561,
+   "x": 126.92698,
+   "y": 37.55869
+  },
+  {
+   "lineSeq": 562,
+   "x": 126.92695,
+   "y": 37.55882
+  },
+  {
+   "lineSeq": 563,
+   "x": 126.92671,
+   "y": 37.55936
+  },
+  {
+   "lineSeq": 564,
+   "x": 126.92663,
+   "y": 37.55945
+  },
+  {
+   "lineSeq": 565,
+   "x": 126.92668,
+   "y": 37.55956
+  },
+  {
+   "lineSeq": 566,
+   "x": 126.92675,
+   "y": 37.56072
+  },
+  {
+   "lineSeq": 567,
+   "x": 126.92677,
+   "y": 37.56089
+  },
+  {
+   "lineSeq": 568,
+   "x": 126.92683,
+   "y": 37.56109
+  },
+  {
+   "lineSeq": 569,
+   "x": 126.92689,
+   "y": 37.56124
+  },
+  {
+   "lineSeq": 570,
+   "x": 126.92698,
+   "y": 37.56139
+  },
+  {
+   "lineSeq": 571,
+   "x": 126.92739,
+   "y": 37.562
+  },
+  {
+   "lineSeq": 572,
+   "x": 126.92742,
+   "y": 37.5621
+  },
+  {
+   "lineSeq": 573,
+   "x": 126.92752,
+   "y": 37.56218
+  },
+  {
+   "lineSeq": 574,
+   "x": 126.92789,
+   "y": 37.56272
+  },
+  {
+   "lineSeq": 575,
+   "x": 126.92883,
+   "y": 37.56404
+  },
+  {
+   "lineSeq": 576,
+   "x": 126.92887,
+   "y": 37.56415
+  },
+  {
+   "lineSeq": 577,
+   "x": 126.92897,
+   "y": 37.56422
+  },
+  {
+   "lineSeq": 578,
+   "x": 126.92947,
+   "y": 37.5649
+  },
+  {
+   "lineSeq": 579,
+   "x": 126.92951,
+   "y": 37.56502
+  },
+  {
+   "lineSeq": 580,
+   "x": 126.92941,
+   "y": 37.5651
+  },
+  {
+   "lineSeq": 581,
+   "x": 126.92915,
+   "y": 37.56523
+  },
+  {
+   "lineSeq": 582,
+   "x": 126.92828,
+   "y": 37.56554
+  },
+  {
+   "lineSeq": 583,
+   "x": 126.92809,
+   "y": 37.56556
+  },
+  {
+   "lineSeq": 584,
+   "x": 126.928,
+   "y": 37.56567
+  },
+  {
+   "lineSeq": 585,
+   "x": 126.92766,
+   "y": 37.56587
+  },
+  {
+   "lineSeq": 586,
+   "x": 126.92723,
+   "y": 37.56605
+  },
+  {
+   "lineSeq": 587,
+   "x": 126.92682,
+   "y": 37.56619
+  },
+  {
+   "lineSeq": 588,
+   "x": 126.92622,
+   "y": 37.56634
+  },
+  {
+   "lineSeq": 589,
+   "x": 126.92572,
+   "y": 37.5664
+  },
+  {
+   "lineSeq": 590,
+   "x": 126.92501,
+   "y": 37.56643
+  },
+  {
+   "lineSeq": 591,
+   "x": 126.92333,
+   "y": 37.56649
+  },
+  {
+   "lineSeq": 592,
+   "x": 126.92282,
+   "y": 37.56654
+  },
+  {
+   "lineSeq": 593,
+   "x": 126.92182,
+   "y": 37.56669
+  },
+  {
+   "lineSeq": 594,
+   "x": 126.92164,
+   "y": 37.56668
+  },
+  {
+   "lineSeq": 595,
+   "x": 126.92149,
+   "y": 37.56676
+  },
+  {
+   "lineSeq": 596,
+   "x": 126.92057,
+   "y": 37.56697
+  },
+  {
+   "lineSeq": 597,
+   "x": 126.92021,
+   "y": 37.56706
+  },
+  {
+   "lineSeq": 598,
+   "x": 126.91989,
+   "y": 37.56715
+  },
+  {
+   "lineSeq": 599,
+   "x": 126.91902,
+   "y": 37.56743
+  },
+  {
+   "lineSeq": 600,
+   "x": 126.91848,
+   "y": 37.56765
+  },
+  {
+   "lineSeq": 601,
+   "x": 126.91794,
+   "y": 37.56787
+  },
+  {
+   "lineSeq": 602,
+   "x": 126.91788,
+   "y": 37.56789
+  },
+  {
+   "lineSeq": 603,
+   "x": 126.91782,
+   "y": 37.56792
+  },
+  {
+   "lineSeq": 604,
+   "x": 126.91756,
+   "y": 37.56805
+  },
+  {
+   "lineSeq": 605,
+   "x": 126.91667,
+   "y": 37.5685
+  },
+  {
+   "lineSeq": 606,
+   "x": 126.91652,
+   "y": 37.56853
+  },
+  {
+   "lineSeq": 607,
+   "x": 126.91642,
+   "y": 37.56862
+  },
+  {
+   "lineSeq": 608,
+   "x": 126.91385,
+   "y": 37.56986
+  },
+  {
+   "lineSeq": 609,
+   "x": 126.91306,
+   "y": 37.57025
+  },
+  {
+   "lineSeq": 610,
+   "x": 126.91289,
+   "y": 37.57028
+  },
+  {
+   "lineSeq": 611,
+   "x": 126.91279,
+   "y": 37.57038
+  },
+  {
+   "lineSeq": 612,
+   "x": 126.91032,
+   "y": 37.57155
+  },
+  {
+   "lineSeq": 613,
+   "x": 126.90845,
+   "y": 37.57244
+  },
+  {
+   "lineSeq": 614,
+   "x": 126.90807,
+   "y": 37.57264
+  },
+  {
+   "lineSeq": 615,
+   "x": 126.90789,
+   "y": 37.57275
+  },
+  {
+   "lineSeq": 616,
+   "x": 126.90762,
+   "y": 37.57294
+  },
+  {
+   "lineSeq": 617,
+   "x": 126.9074,
+   "y": 37.57314
+  },
+  {
+   "lineSeq": 618,
+   "x": 126.90614,
+   "y": 37.57426
+  },
+  {
+   "lineSeq": 619,
+   "x": 126.90602,
+   "y": 37.57432
+  },
+  {
+   "lineSeq": 620,
+   "x": 126.90596,
+   "y": 37.57443
+  },
+  {
+   "lineSeq": 621,
+   "x": 126.90519,
+   "y": 37.57511
+  },
+  {
+   "lineSeq": 622,
+   "x": 126.90512,
+   "y": 37.57517
+  },
+  {
+   "lineSeq": 623,
+   "x": 126.9035,
+   "y": 37.57665
+  },
+  {
+   "lineSeq": 624,
+   "x": 126.90336,
+   "y": 37.57672
+  },
+  {
+   "lineSeq": 625,
+   "x": 126.90333,
+   "y": 37.5768
+  },
+  {
+   "lineSeq": 626,
+   "x": 126.90282,
+   "y": 37.57729
+  },
+  {
+   "lineSeq": 627,
+   "x": 126.90271,
+   "y": 37.57734
+  },
+  {
+   "lineSeq": 628,
+   "x": 126.90266,
+   "y": 37.57744
+  },
+  {
+   "lineSeq": 629,
+   "x": 126.90201,
+   "y": 37.57804
+  },
+  {
+   "lineSeq": 630,
+   "x": 126.90187,
+   "y": 37.57809
+  },
+  {
+   "lineSeq": 631,
+   "x": 126.90183,
+   "y": 37.57818
+  },
+  {
+   "lineSeq": 632,
+   "x": 126.9014,
+   "y": 37.57855
+  },
+  {
+   "lineSeq": 633,
+   "x": 126.90111,
+   "y": 37.57881
+  },
+  {
+   "lineSeq": 634,
+   "x": 126.90087,
+   "y": 37.57899
+  },
+  {
+   "lineSeq": 635,
+   "x": 126.90065,
+   "y": 37.57913
+  },
+  {
+   "lineSeq": 636,
+   "x": 126.89557,
+   "y": 37.58216
+  },
+  {
+   "lineSeq": 637,
+   "x": 126.89545,
+   "y": 37.58219
+  },
+  {
+   "lineSeq": 638,
+   "x": 126.89539,
+   "y": 37.58226
+  },
+  {
+   "lineSeq": 639,
+   "x": 126.89409,
+   "y": 37.58302
+  },
+  {
+   "lineSeq": 640,
+   "x": 126.89397,
+   "y": 37.58309
+  },
+  {
+   "lineSeq": 641,
+   "x": 126.89338,
+   "y": 37.58338
+  },
+  {
+   "lineSeq": 642,
+   "x": 126.89179,
+   "y": 37.58403
+  },
+  {
+   "lineSeq": 643,
+   "x": 126.89167,
+   "y": 37.58404
+  },
+  {
+   "lineSeq": 644,
+   "x": 126.89158,
+   "y": 37.58412
+  },
+  {
+   "lineSeq": 645,
+   "x": 126.89027,
+   "y": 37.58468
+  },
+  {
+   "lineSeq": 646,
+   "x": 126.88996,
+   "y": 37.58485
+  },
+  {
+   "lineSeq": 647,
+   "x": 126.88972,
+   "y": 37.58503
+  },
+  {
+   "lineSeq": 648,
+   "x": 126.88924,
+   "y": 37.58543
+  },
+  {
+   "lineSeq": 649,
+   "x": 126.88865,
+   "y": 37.58592
+  },
+  {
+   "lineSeq": 650,
+   "x": 126.88734,
+   "y": 37.58704
+  },
+  {
+   "lineSeq": 651,
+   "x": 126.88723,
+   "y": 37.58708
+  },
+  {
+   "lineSeq": 652,
+   "x": 126.88719,
+   "y": 37.58715
+  },
+  {
+   "lineSeq": 653,
+   "x": 126.88479,
+   "y": 37.5892
+  },
+  {
+   "lineSeq": 654,
+   "x": 126.88268,
+   "y": 37.59101
+  },
+  {
+   "lineSeq": 655,
+   "x": 126.88257,
+   "y": 37.59106
+  },
+  {
+   "lineSeq": 656,
+   "x": 126.88253,
+   "y": 37.59114
+  },
+  {
+   "lineSeq": 657,
+   "x": 126.88225,
+   "y": 37.59141
+  },
+  {
+   "lineSeq": 658,
+   "x": 126.88213,
+   "y": 37.59146
+  },
+  {
+   "lineSeq": 659,
+   "x": 126.88209,
+   "y": 37.59155
+  },
+  {
+   "lineSeq": 660,
+   "x": 126.88018,
+   "y": 37.5933
+  },
+  {
+   "lineSeq": 661,
+   "x": 126.87856,
+   "y": 37.59475
+  },
+  {
+   "lineSeq": 662,
+   "x": 126.87818,
+   "y": 37.5951
+  },
+  {
+   "lineSeq": 663,
+   "x": 126.87807,
+   "y": 37.59515
+  },
+  {
+   "lineSeq": 664,
+   "x": 126.87801,
+   "y": 37.59526
+  },
+  {
+   "lineSeq": 665,
+   "x": 126.87639,
+   "y": 37.59677
+  },
+  {
+   "lineSeq": 666,
+   "x": 126.87547,
+   "y": 37.5977
+  },
+  {
+   "lineSeq": 667,
+   "x": 126.87536,
+   "y": 37.59775
+  },
+  {
+   "lineSeq": 668,
+   "x": 126.87533,
+   "y": 37.59783
+  },
+  {
+   "lineSeq": 669,
+   "x": 126.87518,
+   "y": 37.59798
+  },
+  {
+   "lineSeq": 670,
+   "x": 126.87347,
+   "y": 37.59974
+  },
+  {
+   "lineSeq": 671,
+   "x": 126.87336,
+   "y": 37.59979
+  },
+  {
+   "lineSeq": 672,
+   "x": 126.87325,
+   "y": 37.59983
+  },
+  {
+   "lineSeq": 673,
+   "x": 126.87288,
+   "y": 37.59989
+  },
+  {
+   "lineSeq": 674,
+   "x": 126.87243,
+   "y": 37.60001
+  },
+  {
+   "lineSeq": 675,
+   "x": 126.87226,
+   "y": 37.60007
+  },
+  {
+   "lineSeq": 676,
+   "x": 126.87207,
+   "y": 37.60015
+  },
+  {
+   "lineSeq": 677,
+   "x": 126.87195,
+   "y": 37.60024
+  },
+  {
+   "lineSeq": 678,
+   "x": 126.87116,
+   "y": 37.60094
+  },
+  {
+   "lineSeq": 679,
+   "x": 126.87106,
+   "y": 37.60102
+  },
+  {
+   "lineSeq": 680,
+   "x": 126.87081,
+   "y": 37.60125
+  },
+  {
+   "lineSeq": 681,
+   "x": 126.87065,
+   "y": 37.60142
+  },
+  {
+   "lineSeq": 682,
+   "x": 126.86957,
+   "y": 37.60279
+  },
+  {
+   "lineSeq": 683,
+   "x": 126.86953,
+   "y": 37.60284
+  },
+  {
+   "lineSeq": 684,
+   "x": 126.86939,
+   "y": 37.60304
+  },
+  {
+   "lineSeq": 685,
+   "x": 126.86932,
+   "y": 37.60315
+  },
+  {
+   "lineSeq": 686,
+   "x": 126.86922,
+   "y": 37.60333
+  },
+  {
+   "lineSeq": 687,
+   "x": 126.86892,
+   "y": 37.60413
+  },
+  {
+   "lineSeq": 688,
+   "x": 126.86873,
+   "y": 37.6046
+  },
+  {
+   "lineSeq": 689,
+   "x": 126.86867,
+   "y": 37.60467
+  },
+  {
+   "lineSeq": 690,
+   "x": 126.8686,
+   "y": 37.60474
+  },
+  {
+   "lineSeq": 691,
+   "x": 126.86766,
+   "y": 37.60538
+  },
+  {
+   "lineSeq": 692,
+   "x": 126.86684,
+   "y": 37.60591
+  },
+  {
+   "lineSeq": 693,
+   "x": 126.86357,
+   "y": 37.60802
+  },
+  {
+   "lineSeq": 694,
+   "x": 126.86342,
+   "y": 37.60806
+  },
+  {
+   "lineSeq": 695,
+   "x": 126.86334,
+   "y": 37.60816
+  },
+  {
+   "lineSeq": 696,
+   "x": 126.86229,
+   "y": 37.60885
+  },
+  {
+   "lineSeq": 697,
+   "x": 126.86158,
+   "y": 37.60931
+  },
+  {
+   "lineSeq": 698,
+   "x": 126.86106,
+   "y": 37.60964
+  },
+  {
+   "lineSeq": 699,
+   "x": 126.85931,
+   "y": 37.61079
+  },
+  {
+   "lineSeq": 700,
+   "x": 126.85561,
+   "y": 37.61318
+  },
+  {
+   "lineSeq": 701,
+   "x": 126.85203,
+   "y": 37.61542
+  },
+  {
+   "lineSeq": 702,
+   "x": 126.85192,
+   "y": 37.61549
+  },
+  {
+   "lineSeq": 703,
+   "x": 126.85179,
+   "y": 37.61553
+  },
+  {
+   "lineSeq": 704,
+   "x": 126.85171,
+   "y": 37.61562
+  },
+  {
+   "lineSeq": 705,
+   "x": 126.85068,
+   "y": 37.61627
+  },
+  {
+   "lineSeq": 706,
+   "x": 126.85005,
+   "y": 37.6166
+  },
+  {
+   "lineSeq": 707,
+   "x": 126.84976,
+   "y": 37.61672
+  },
+  {
+   "lineSeq": 708,
+   "x": 126.84958,
+   "y": 37.61674
+  },
+  {
+   "lineSeq": 709,
+   "x": 126.84945,
+   "y": 37.61683
+  },
+  {
+   "lineSeq": 710,
+   "x": 126.84744,
+   "y": 37.61753
+  },
+  {
+   "lineSeq": 711,
+   "x": 126.84707,
+   "y": 37.61766
+  },
+  {
+   "lineSeq": 712,
+   "x": 126.84691,
+   "y": 37.61768
+  },
+  {
+   "lineSeq": 713,
+   "x": 126.8468,
+   "y": 37.61776
+  },
+  {
+   "lineSeq": 714,
+   "x": 126.8457,
+   "y": 37.61812
+  },
+  {
+   "lineSeq": 715,
+   "x": 126.84553,
+   "y": 37.61813
+  },
+  {
+   "lineSeq": 716,
+   "x": 126.84542,
+   "y": 37.61822
+  },
+  {
+   "lineSeq": 717,
+   "x": 126.84434,
+   "y": 37.61859
+  },
+  {
+   "lineSeq": 718,
+   "x": 126.84418,
+   "y": 37.6186
+  },
+  {
+   "lineSeq": 719,
+   "x": 126.84406,
+   "y": 37.61868
+  },
+  {
+   "lineSeq": 720,
+   "x": 126.84274,
+   "y": 37.61914
+  },
+  {
+   "lineSeq": 721,
+   "x": 126.84256,
+   "y": 37.61921
+  },
+  {
+   "lineSeq": 722,
+   "x": 126.84226,
+   "y": 37.61934
+  },
+  {
+   "lineSeq": 723,
+   "x": 126.84184,
+   "y": 37.61957
+  },
+  {
+   "lineSeq": 724,
+   "x": 126.83992,
+   "y": 37.62079
+  },
+  {
+   "lineSeq": 725,
+   "x": 126.83974,
+   "y": 37.62085
+  },
+  {
+   "lineSeq": 726,
+   "x": 126.83963,
+   "y": 37.62097
+  },
+  {
+   "lineSeq": 727,
+   "x": 126.8381,
+   "y": 37.62197
+  },
+  {
+   "lineSeq": 728,
+   "x": 126.83694,
+   "y": 37.62272
+  },
+  {
+   "lineSeq": 729,
+   "x": 126.83678,
+   "y": 37.62275
+  },
+  {
+   "lineSeq": 730,
+   "x": 126.83665,
+   "y": 37.6229
+  },
+  {
+   "lineSeq": 731,
+   "x": 126.83454,
+   "y": 37.62425
+  },
+  {
+   "lineSeq": 732,
+   "x": 126.83433,
+   "y": 37.62432
+  },
+  {
+   "lineSeq": 733,
+   "x": 126.8342,
+   "y": 37.62447
+  },
+  {
+   "lineSeq": 734,
+   "x": 126.83209,
+   "y": 37.62582
+  },
+  {
+   "lineSeq": 735,
+   "x": 126.83188,
+   "y": 37.62588
+  },
+  {
+   "lineSeq": 736,
+   "x": 126.83177,
+   "y": 37.62601
+  },
+  {
+   "lineSeq": 737,
+   "x": 126.83083,
+   "y": 37.6266
+  },
+  {
+   "lineSeq": 738,
+   "x": 126.8304,
+   "y": 37.62681
+  },
+  {
+   "lineSeq": 739,
+   "x": 126.82873,
+   "y": 37.62735
+  },
+  {
+   "lineSeq": 740,
+   "x": 126.82845,
+   "y": 37.62744
+  },
+  {
+   "lineSeq": 741,
+   "x": 126.82828,
+   "y": 37.62745
+  },
+  {
+   "lineSeq": 742,
+   "x": 126.82818,
+   "y": 37.62753
+  },
+  {
+   "lineSeq": 743,
+   "x": 126.82705,
+   "y": 37.6279
+  },
+  {
+   "lineSeq": 744,
+   "x": 126.82691,
+   "y": 37.62795
+  },
+  {
+   "lineSeq": 745,
+   "x": 126.82664,
+   "y": 37.62804
+  },
+  {
+   "lineSeq": 746,
+   "x": 126.82322,
+   "y": 37.62911
+  },
+  {
+   "lineSeq": 747,
+   "x": 126.82103,
+   "y": 37.6298
+  },
+  {
+   "lineSeq": 748,
+   "x": 126.82075,
+   "y": 37.62988
+  },
+  {
+   "lineSeq": 749,
+   "x": 126.82059,
+   "y": 37.62993
+  },
+  {
+   "lineSeq": 750,
+   "x": 126.81978,
+   "y": 37.63016
+  },
+  {
+   "lineSeq": 751,
+   "x": 126.81902,
+   "y": 37.63032
+  },
+  {
+   "lineSeq": 752,
+   "x": 126.81814,
+   "y": 37.63046
+  },
+  {
+   "lineSeq": 753,
+   "x": 126.8174,
+   "y": 37.63057
+  },
+  {
+   "lineSeq": 754,
+   "x": 126.81556,
+   "y": 37.6308
+  },
+  {
+   "lineSeq": 755,
+   "x": 126.81323,
+   "y": 37.63112
+  },
+  {
+   "lineSeq": 756,
+   "x": 126.81196,
+   "y": 37.63129
+  },
+  {
+   "lineSeq": 757,
+   "x": 126.80871,
+   "y": 37.63174
+  },
+  {
+   "lineSeq": 758,
+   "x": 126.80413,
+   "y": 37.63236
+  },
+  {
+   "lineSeq": 759,
+   "x": 126.80369,
+   "y": 37.63244
+  },
+  {
+   "lineSeq": 760,
+   "x": 126.8029,
+   "y": 37.63263
+  },
+  {
+   "lineSeq": 761,
+   "x": 126.80209,
+   "y": 37.63291
+  },
+  {
+   "lineSeq": 762,
+   "x": 126.80163,
+   "y": 37.6331
+  },
+  {
+   "lineSeq": 763,
+   "x": 126.8011,
+   "y": 37.63338
+  },
+  {
+   "lineSeq": 764,
+   "x": 126.80072,
+   "y": 37.63359
+  },
+  {
+   "lineSeq": 765,
+   "x": 126.80031,
+   "y": 37.63387
+  },
+  {
+   "lineSeq": 766,
+   "x": 126.79975,
+   "y": 37.63428
+  },
+  {
+   "lineSeq": 767,
+   "x": 126.79869,
+   "y": 37.63516
+  },
+  {
+   "lineSeq": 768,
+   "x": 126.7963,
+   "y": 37.6369
+  },
+  {
+   "lineSeq": 769,
+   "x": 126.79469,
+   "y": 37.63815
+  },
+  {
+   "lineSeq": 770,
+   "x": 126.79227,
+   "y": 37.63995
+  },
+  {
+   "lineSeq": 771,
+   "x": 126.79211,
+   "y": 37.64
+  },
+  {
+   "lineSeq": 772,
+   "x": 126.79202,
+   "y": 37.64014
+  },
+  {
+   "lineSeq": 773,
+   "x": 126.79109,
+   "y": 37.64083
+  },
+  {
+   "lineSeq": 774,
+   "x": 126.79095,
+   "y": 37.64094
+  },
+  {
+   "lineSeq": 775,
+   "x": 126.79079,
+   "y": 37.641
+  },
+  {
+   "lineSeq": 776,
+   "x": 126.79071,
+   "y": 37.64112
+  },
+  {
+   "lineSeq": 777,
+   "x": 126.78965,
+   "y": 37.64191
+  },
+  {
+   "lineSeq": 778,
+   "x": 126.78947,
+   "y": 37.64199
+  },
+  {
+   "lineSeq": 779,
+   "x": 126.78938,
+   "y": 37.64211
+  },
+  {
+   "lineSeq": 780,
+   "x": 126.78818,
+   "y": 37.64302
+  },
+  {
+   "lineSeq": 781,
+   "x": 126.788,
+   "y": 37.64309
+  },
+  {
+   "lineSeq": 782,
+   "x": 126.7879,
+   "y": 37.64323
+  },
+  {
+   "lineSeq": 783,
+   "x": 126.78745,
+   "y": 37.64356
+  },
+  {
+   "lineSeq": 784,
+   "x": 126.78727,
+   "y": 37.64363
+  },
+  {
+   "lineSeq": 785,
+   "x": 126.78719,
+   "y": 37.64376
+  },
+  {
+   "lineSeq": 786,
+   "x": 126.78624,
+   "y": 37.64447
+  },
+  {
+   "lineSeq": 787,
+   "x": 126.78538,
+   "y": 37.64512
+  },
+  {
+   "lineSeq": 788,
+   "x": 126.7853,
+   "y": 37.64519
+  },
+  {
+   "lineSeq": 789,
+   "x": 126.78502,
+   "y": 37.6454
+  },
+  {
+   "lineSeq": 790,
+   "x": 126.7849,
+   "y": 37.64549
+  },
+  {
+   "lineSeq": 791,
+   "x": 126.78473,
+   "y": 37.64562
+  },
+  {
+   "lineSeq": 792,
+   "x": 126.78458,
+   "y": 37.64568
+  },
+  {
+   "lineSeq": 793,
+   "x": 126.78449,
+   "y": 37.64579
+  },
+  {
+   "lineSeq": 794,
+   "x": 126.78138,
+   "y": 37.64816
+  },
+  {
+   "lineSeq": 795,
+   "x": 126.78123,
+   "y": 37.64827
+  },
+  {
+   "lineSeq": 796,
+   "x": 126.78107,
+   "y": 37.64834
+  },
+  {
+   "lineSeq": 797,
+   "x": 126.78098,
+   "y": 37.64846
+  },
+  {
+   "lineSeq": 798,
+   "x": 126.7805,
+   "y": 37.64884
+  },
+  {
+   "lineSeq": 799,
+   "x": 126.77995,
+   "y": 37.64926
+  },
+  {
+   "lineSeq": 800,
+   "x": 126.77956,
+   "y": 37.64962
+  },
+  {
+   "lineSeq": 801,
+   "x": 126.77928,
+   "y": 37.64989
+  },
+  {
+   "lineSeq": 802,
+   "x": 126.77889,
+   "y": 37.65035
+  },
+  {
+   "lineSeq": 803,
+   "x": 126.77873,
+   "y": 37.65044
+  },
+  {
+   "lineSeq": 804,
+   "x": 126.77869,
+   "y": 37.65061
+  },
+  {
+   "lineSeq": 805,
+   "x": 126.77825,
+   "y": 37.65133
+  },
+  {
+   "lineSeq": 806,
+   "x": 126.77799,
+   "y": 37.65178
+  },
+  {
+   "lineSeq": 807,
+   "x": 126.77616,
+   "y": 37.65492
+  },
+  {
+   "lineSeq": 808,
+   "x": 126.77603,
+   "y": 37.65504
+  },
+  {
+   "lineSeq": 809,
+   "x": 126.77599,
+   "y": 37.65521
+  },
+  {
+   "lineSeq": 810,
+   "x": 126.77469,
+   "y": 37.65742
+  },
+  {
+   "lineSeq": 811,
+   "x": 126.77463,
+   "y": 37.65751
+  },
+  {
+   "lineSeq": 812,
+   "x": 126.77449,
+   "y": 37.65764
+  },
+  {
+   "lineSeq": 813,
+   "x": 126.77445,
+   "y": 37.65783
+  },
+  {
+   "lineSeq": 814,
+   "x": 126.77387,
+   "y": 37.65882
+  },
+  {
+   "lineSeq": 815,
+   "x": 126.77373,
+   "y": 37.65894
+  },
+  {
+   "lineSeq": 816,
+   "x": 126.7737,
+   "y": 37.6591
+  },
+  {
+   "lineSeq": 817,
+   "x": 126.77319,
+   "y": 37.65999
+  },
+  {
+   "lineSeq": 818,
+   "x": 126.77304,
+   "y": 37.66013
+  },
+  {
+   "lineSeq": 819,
+   "x": 126.77301,
+   "y": 37.66028
+  },
+  {
+   "lineSeq": 820,
+   "x": 126.77256,
+   "y": 37.661
+  },
+  {
+   "lineSeq": 821,
+   "x": 126.77231,
+   "y": 37.66132
+  },
+  {
+   "lineSeq": 822,
+   "x": 126.77202,
+   "y": 37.66166
+  },
+  {
+   "lineSeq": 823,
+   "x": 126.77155,
+   "y": 37.66215
+  },
+  {
+   "lineSeq": 824,
+   "x": 126.77139,
+   "y": 37.66224
+  },
+  {
+   "lineSeq": 825,
+   "x": 126.77133,
+   "y": 37.66237
+  },
+  {
+   "lineSeq": 826,
+   "x": 126.77113,
+   "y": 37.66257
+  },
+  {
+   "lineSeq": 827,
+   "x": 126.77097,
+   "y": 37.66266
+  },
+  {
+   "lineSeq": 828,
+   "x": 126.77091,
+   "y": 37.66279
+  },
+  {
+   "lineSeq": 829,
+   "x": 126.77005,
+   "y": 37.66368
+  },
+  {
+   "lineSeq": 830,
+   "x": 126.76993,
+   "y": 37.6638
+  },
+  {
+   "lineSeq": 831,
+   "x": 126.76977,
+   "y": 37.66389
+  },
+  {
+   "lineSeq": 832,
+   "x": 126.7697,
+   "y": 37.66404
+  },
+  {
+   "lineSeq": 833,
+   "x": 126.76764,
+   "y": 37.66615
+  },
+  {
+   "lineSeq": 834,
+   "x": 126.76746,
+   "y": 37.66625
+  },
+  {
+   "lineSeq": 835,
+   "x": 126.76737,
+   "y": 37.66641
+  },
+  {
+   "lineSeq": 836,
+   "x": 126.76664,
+   "y": 37.6671
+  },
+  {
+   "lineSeq": 837,
+   "x": 126.76625,
+   "y": 37.66743
+  },
+  {
+   "lineSeq": 838,
+   "x": 126.76578,
+   "y": 37.66783
+  },
+  {
+   "lineSeq": 839,
+   "x": 126.76518,
+   "y": 37.66826
+  },
+  {
+   "lineSeq": 840,
+   "x": 126.76433,
+   "y": 37.66879
+  },
+  {
+   "lineSeq": 841,
+   "x": 126.76415,
+   "y": 37.66884
+  },
+  {
+   "lineSeq": 842,
+   "x": 126.7643,
+   "y": 37.66893
+  },
+  {
+   "lineSeq": 843,
+   "x": 126.76477,
+   "y": 37.66948
+  },
+  {
+   "lineSeq": 844,
+   "x": 126.76483,
+   "y": 37.66961
+  },
+  {
+   "lineSeq": 845,
+   "x": 126.76495,
+   "y": 37.66971
+  },
+  {
+   "lineSeq": 846,
+   "x": 126.76581,
+   "y": 37.67096
+  },
+  {
+   "lineSeq": 847,
+   "x": 126.76716,
+   "y": 37.67291
+  },
+  {
+   "lineSeq": 848,
+   "x": 126.7672,
+   "y": 37.67304
+  },
+  {
+   "lineSeq": 849,
+   "x": 126.76712,
+   "y": 37.67313
+  },
+  {
+   "lineSeq": 850,
+   "x": 126.76435,
+   "y": 37.67433
+  },
+  {
+   "lineSeq": 851,
+   "x": 126.76127,
+   "y": 37.67567
+  },
+  {
+   "lineSeq": 852,
+   "x": 126.7611,
+   "y": 37.67568
+  },
+  {
+   "lineSeq": 853,
+   "x": 126.76098,
+   "y": 37.67578
+  },
+  {
+   "lineSeq": 854,
+   "x": 126.75922,
+   "y": 37.67655
+  },
+  {
+   "lineSeq": 855,
+   "x": 126.757,
+   "y": 37.67753
+  },
+  {
+   "lineSeq": 856,
+   "x": 126.75683,
+   "y": 37.67756
+  },
+  {
+   "lineSeq": 857,
+   "x": 126.75671,
+   "y": 37.67765
+  },
+  {
+   "lineSeq": 858,
+   "x": 126.75411,
+   "y": 37.67879
+  },
+  {
+   "lineSeq": 859,
+   "x": 126.75239,
+   "y": 37.67954
+  },
+  {
+   "lineSeq": 860,
+   "x": 126.75224,
+   "y": 37.67956
+  },
+  {
+   "lineSeq": 861,
+   "x": 126.75211,
+   "y": 37.67946
+  },
+  {
+   "lineSeq": 862,
+   "x": 126.75081,
+   "y": 37.67759
+  },
+  {
+   "lineSeq": 863,
+   "x": 126.74996,
+   "y": 37.67636
+  },
+  {
+   "lineSeq": 864,
+   "x": 126.74991,
+   "y": 37.67622
+  },
+  {
+   "lineSeq": 865,
+   "x": 126.74981,
+   "y": 37.67614
+  },
+  {
+   "lineSeq": 866,
+   "x": 126.74937,
+   "y": 37.67548
+  },
+  {
+   "lineSeq": 867,
+   "x": 126.74934,
+   "y": 37.67538
+  },
+  {
+   "lineSeq": 868,
+   "x": 126.74925,
+   "y": 37.67546
+  },
+  {
+   "lineSeq": 869,
+   "x": 126.74798,
+   "y": 37.67602
+  },
+  {
+   "lineSeq": 870,
+   "x": 126.74659,
+   "y": 37.67662
+  },
+  {
+   "lineSeq": 871,
+   "x": 126.74643,
+   "y": 37.67664
+  },
+  {
+   "lineSeq": 872,
+   "x": 126.74633,
+   "y": 37.67674
+  },
+  {
+   "lineSeq": 873,
+   "x": 126.74596,
+   "y": 37.67691
+  },
+  {
+   "lineSeq": 874,
+   "x": 126.74581,
+   "y": 37.67693
+  },
+  {
+   "lineSeq": 875,
+   "x": 126.7457,
+   "y": 37.67702
+  },
+  {
+   "lineSeq": 876,
+   "x": 126.74398,
+   "y": 37.67777
+  },
+  {
+   "lineSeq": 877,
+   "x": 126.74154,
+   "y": 37.67885
+  },
+  {
+   "lineSeq": 878,
+   "x": 126.74136,
+   "y": 37.67888
+  },
+  {
+   "lineSeq": 879,
+   "x": 126.74124,
+   "y": 37.67898
+  },
+  {
+   "lineSeq": 880,
+   "x": 126.74013,
+   "y": 37.67946
+  },
+  {
+   "lineSeq": 881,
+   "x": 126.73913,
+   "y": 37.67989
+  },
+  {
+   "lineSeq": 882,
+   "x": 126.73896,
+   "y": 37.67992
+  },
+  {
+   "lineSeq": 883,
+   "x": 126.73885,
+   "y": 37.68001
+  },
+  {
+   "lineSeq": 884,
+   "x": 126.73641,
+   "y": 37.6811
+  },
+  {
+   "lineSeq": 885,
+   "x": 126.73624,
+   "y": 37.68113
+  },
+  {
+   "lineSeq": 886,
+   "x": 126.73634,
+   "y": 37.68119
+  },
+  {
+   "lineSeq": 887,
+   "x": 126.73725,
+   "y": 37.68245
+  },
+  {
+   "lineSeq": 888,
+   "x": 126.73748,
+   "y": 37.68276
+  },
+  {
+   "lineSeq": 889,
+   "x": 126.73778,
+   "y": 37.68311
+  },
+  {
+   "lineSeq": 890,
+   "x": 126.73807,
+   "y": 37.68339
+  },
+  {
+   "lineSeq": 891,
+   "x": 126.73852,
+   "y": 37.68376
+  },
+  {
+   "lineSeq": 892,
+   "x": 126.73885,
+   "y": 37.68401
+  },
+  {
+   "lineSeq": 893,
+   "x": 126.73918,
+   "y": 37.68423
+  },
+  {
+   "lineSeq": 894,
+   "x": 126.74074,
+   "y": 37.68518
+  },
+  {
+   "lineSeq": 895,
+   "x": 126.74079,
+   "y": 37.68525
+  },
+  {
+   "lineSeq": 896,
+   "x": 126.74089,
+   "y": 37.68527
+  },
+  {
+   "lineSeq": 897,
+   "x": 126.74202,
+   "y": 37.68596
+  },
+  {
+   "lineSeq": 898,
+   "x": 126.74219,
+   "y": 37.68607
+  },
+  {
+   "lineSeq": 899,
+   "x": 126.7427,
+   "y": 37.68643
+  },
+  {
+   "lineSeq": 900,
+   "x": 126.74307,
+   "y": 37.68673
+  },
+  {
+   "lineSeq": 901,
+   "x": 126.74346,
+   "y": 37.68711
+  },
+  {
+   "lineSeq": 902,
+   "x": 126.74382,
+   "y": 37.68751
+  },
+  {
+   "lineSeq": 903,
+   "x": 126.74423,
+   "y": 37.68806
+  },
+  {
+   "lineSeq": 904,
+   "x": 126.74448,
+   "y": 37.6885
+  },
+  {
+   "lineSeq": 905,
+   "x": 126.74575,
+   "y": 37.69106
+  },
+  {
+   "lineSeq": 906,
+   "x": 126.74648,
+   "y": 37.69255
+  },
+  {
+   "lineSeq": 907,
+   "x": 126.74649,
+   "y": 37.6927
+  },
+  {
+   "lineSeq": 908,
+   "x": 126.74659,
+   "y": 37.6928
+  },
+  {
+   "lineSeq": 909,
+   "x": 126.74674,
+   "y": 37.69336
+  },
+  {
+   "lineSeq": 910,
+   "x": 126.74677,
+   "y": 37.69349
+  },
+  {
+   "lineSeq": 911,
+   "x": 126.74685,
+   "y": 37.69384
+  },
+  {
+   "lineSeq": 912,
+   "x": 126.74688,
+   "y": 37.69417
+  },
+  {
+   "lineSeq": 913,
+   "x": 126.74689,
+   "y": 37.69448
+  },
+  {
+   "lineSeq": 914,
+   "x": 126.74688,
+   "y": 37.6948
+  },
+  {
+   "lineSeq": 915,
+   "x": 126.74685,
+   "y": 37.69513
+  },
+  {
+   "lineSeq": 916,
+   "x": 126.74679,
+   "y": 37.69524
+  },
+  {
+   "lineSeq": 917,
+   "x": 126.74682,
+   "y": 37.69534
+  },
+  {
+   "lineSeq": 918,
+   "x": 126.74678,
+   "y": 37.69562
+  },
+  {
+   "lineSeq": 919,
+   "x": 126.74667,
+   "y": 37.69602
+  },
+  {
+   "lineSeq": 920,
+   "x": 126.7465,
+   "y": 37.69647
+  },
+  {
+   "lineSeq": 921,
+   "x": 126.74621,
+   "y": 37.6972
+  },
+  {
+   "lineSeq": 922,
+   "x": 126.74612,
+   "y": 37.69749
+  },
+  {
+   "lineSeq": 923,
+   "x": 126.74605,
+   "y": 37.69757
+  },
+  {
+   "lineSeq": 924,
+   "x": 126.74609,
+   "y": 37.69765
+  },
+  {
+   "lineSeq": 925,
+   "x": 126.74609,
+   "y": 37.69777
+  },
+  {
+   "lineSeq": 926,
+   "x": 126.74608,
+   "y": 37.69793
+  },
+  {
+   "lineSeq": 927,
+   "x": 126.74609,
+   "y": 37.69809
+  },
+  {
+   "lineSeq": 928,
+   "x": 126.74613,
+   "y": 37.69831
+  },
+  {
+   "lineSeq": 929,
+   "x": 126.74616,
+   "y": 37.69841
+  },
+  {
+   "lineSeq": 930,
+   "x": 126.74624,
+   "y": 37.69866
+  },
+  {
+   "lineSeq": 931,
+   "x": 126.74633,
+   "y": 37.69887
+  },
+  {
+   "lineSeq": 932,
+   "x": 126.74644,
+   "y": 37.69904
+  },
+  {
+   "lineSeq": 933,
+   "x": 126.74661,
+   "y": 37.6993
+  },
+  {
+   "lineSeq": 934,
+   "x": 126.74663,
+   "y": 37.69937
+  },
+  {
+   "lineSeq": 935,
+   "x": 126.74673,
+   "y": 37.69942
+  },
+  {
+   "lineSeq": 936,
+   "x": 126.74709,
+   "y": 37.69981
+  },
+  {
+   "lineSeq": 937,
+   "x": 126.74723,
+   "y": 37.7
+  },
+  {
+   "lineSeq": 938,
+   "x": 126.74733,
+   "y": 37.70016
+  },
+  {
+   "lineSeq": 939,
+   "x": 126.74739,
+   "y": 37.70025
+  },
+  {
+   "lineSeq": 940,
+   "x": 126.74747,
+   "y": 37.70041
+  },
+  {
+   "lineSeq": 941,
+   "x": 126.74755,
+   "y": 37.70063
+  },
+  {
+   "lineSeq": 942,
+   "x": 126.74762,
+   "y": 37.70087
+  },
+  {
+   "lineSeq": 943,
+   "x": 126.74764,
+   "y": 37.70109
+  },
+  {
+   "lineSeq": 944,
+   "x": 126.74763,
+   "y": 37.70141
+  },
+  {
+   "lineSeq": 945,
+   "x": 126.74758,
+   "y": 37.7017
+  },
+  {
+   "lineSeq": 946,
+   "x": 126.7475,
+   "y": 37.70192
+  },
+  {
+   "lineSeq": 947,
+   "x": 126.74742,
+   "y": 37.70212
+  },
+  {
+   "lineSeq": 948,
+   "x": 126.7473,
+   "y": 37.70232
+  },
+  {
+   "lineSeq": 949,
+   "x": 126.74712,
+   "y": 37.70256
+  },
+  {
+   "lineSeq": 950,
+   "x": 126.74655,
+   "y": 37.70322
+  },
+  {
+   "lineSeq": 951,
+   "x": 126.74642,
+   "y": 37.70339
+  },
+  {
+   "lineSeq": 952,
+   "x": 126.74631,
+   "y": 37.7036
+  },
+  {
+   "lineSeq": 953,
+   "x": 126.74622,
+   "y": 37.70385
+  },
+  {
+   "lineSeq": 954,
+   "x": 126.74616,
+   "y": 37.70408
+  },
+  {
+   "lineSeq": 955,
+   "x": 126.74614,
+   "y": 37.70424
+  },
+  {
+   "lineSeq": 956,
+   "x": 126.74613,
+   "y": 37.70446
+  },
+  {
+   "lineSeq": 957,
+   "x": 126.74613,
+   "y": 37.70476
+  },
+  {
+   "lineSeq": 958,
+   "x": 126.74621,
+   "y": 37.70618
+  },
+  {
+   "lineSeq": 959,
+   "x": 126.74625,
+   "y": 37.70691
+  },
+  {
+   "lineSeq": 960,
+   "x": 126.74621,
+   "y": 37.70708
+  },
+  {
+   "lineSeq": 961,
+   "x": 126.74626,
+   "y": 37.70725
+  },
+  {
+   "lineSeq": 962,
+   "x": 126.74632,
+   "y": 37.7097
+  },
+  {
+   "lineSeq": 963,
+   "x": 126.74628,
+   "y": 37.70983
+  },
+  {
+   "lineSeq": 964,
+   "x": 126.74632,
+   "y": 37.70997
+  },
+  {
+   "lineSeq": 965,
+   "x": 126.74635,
+   "y": 37.71048
+  },
+  {
+   "lineSeq": 966,
+   "x": 126.74642,
+   "y": 37.7123
+  },
+  {
+   "lineSeq": 967,
+   "x": 126.74638,
+   "y": 37.71245
+  },
+  {
+   "lineSeq": 968,
+   "x": 126.74644,
+   "y": 37.71257
+  },
+  {
+   "lineSeq": 969,
+   "x": 126.74651,
+   "y": 37.71419
+  },
+  {
+   "lineSeq": 970,
+   "x": 126.74647,
+   "y": 37.7143
+  },
+  {
+   "lineSeq": 971,
+   "x": 126.74652,
+   "y": 37.71441
+  },
+  {
+   "lineSeq": 972,
+   "x": 126.74653,
+   "y": 37.71457
+  },
+  {
+   "lineSeq": 973,
+   "x": 126.74655,
+   "y": 37.71481
+  },
+  {
+   "lineSeq": 974,
+   "x": 126.74659,
+   "y": 37.71527
+  },
+  {
+   "lineSeq": 975,
+   "x": 126.74669,
+   "y": 37.71602
+  },
+  {
+   "lineSeq": 976,
+   "x": 126.74683,
+   "y": 37.71684
+  },
+  {
+   "lineSeq": 977,
+   "x": 126.74687,
+   "y": 37.71705
+  },
+  {
+   "lineSeq": 978,
+   "x": 126.74685,
+   "y": 37.7172
+  },
+  {
+   "lineSeq": 979,
+   "x": 126.74694,
+   "y": 37.71733
+  },
+  {
+   "lineSeq": 980,
+   "x": 126.74702,
+   "y": 37.71763
+  },
+  {
+   "lineSeq": 981,
+   "x": 126.74719,
+   "y": 37.71822
+  },
+  {
+   "lineSeq": 982,
+   "x": 126.74742,
+   "y": 37.71883
+  },
+  {
+   "lineSeq": 983,
+   "x": 126.74766,
+   "y": 37.71948
+  },
+  {
+   "lineSeq": 984,
+   "x": 126.74801,
+   "y": 37.72024
+  },
+  {
+   "lineSeq": 985,
+   "x": 126.74843,
+   "y": 37.72107
+  },
+  {
+   "lineSeq": 986,
+   "x": 126.74866,
+   "y": 37.72148
+  },
+  {
+   "lineSeq": 987,
+   "x": 126.74903,
+   "y": 37.72203
+  },
+  {
+   "lineSeq": 988,
+   "x": 126.74972,
+   "y": 37.72305
+  },
+  {
+   "lineSeq": 989,
+   "x": 126.74978,
+   "y": 37.72321
+  },
+  {
+   "lineSeq": 990,
+   "x": 126.74992,
+   "y": 37.72333
+  },
+  {
+   "lineSeq": 991,
+   "x": 126.75067,
+   "y": 37.72438
+  },
+  {
+   "lineSeq": 992,
+   "x": 126.75101,
+   "y": 37.7249
+  },
+  {
+   "lineSeq": 993,
+   "x": 126.75119,
+   "y": 37.72524
+  },
+  {
+   "lineSeq": 994,
+   "x": 126.75143,
+   "y": 37.72573
+  },
+  {
+   "lineSeq": 995,
+   "x": 126.75146,
+   "y": 37.72579
+  },
+  {
+   "lineSeq": 996,
+   "x": 126.75171,
+   "y": 37.72651
+  },
+  {
+   "lineSeq": 997,
+   "x": 126.75188,
+   "y": 37.72723
+  },
+  {
+   "lineSeq": 998,
+   "x": 126.75193,
+   "y": 37.72769
+  },
+  {
+   "lineSeq": 999,
+   "x": 126.75193,
+   "y": 37.72802
+  },
+  {
+   "lineSeq": 1000,
+   "x": 126.75192,
+   "y": 37.72843
+  },
+  {
+   "lineSeq": 1001,
+   "x": 126.75185,
+   "y": 37.72919
+  },
+  {
+   "lineSeq": 1002,
+   "x": 126.7518,
+   "y": 37.72953
+  },
+  {
+   "lineSeq": 1003,
+   "x": 126.75173,
+   "y": 37.72969
+  },
+  {
+   "lineSeq": 1004,
+   "x": 126.75155,
+   "y": 37.72972
+  },
+  {
+   "lineSeq": 1005,
+   "x": 126.7505,
+   "y": 37.72963
+  },
+  {
+   "lineSeq": 1006,
+   "x": 126.74905,
+   "y": 37.72954
+  },
+  {
+   "lineSeq": 1007,
+   "x": 126.74848,
+   "y": 37.72952
+  },
+  {
+   "lineSeq": 1008,
+   "x": 126.74828,
+   "y": 37.72953
+  },
+  {
+   "lineSeq": 1009,
+   "x": 126.74786,
+   "y": 37.72954
+  },
+  {
+   "lineSeq": 1010,
+   "x": 126.74728,
+   "y": 37.72957
+  },
+  {
+   "lineSeq": 1011,
+   "x": 126.74309,
+   "y": 37.72977
+  },
+  {
+   "lineSeq": 1012,
+   "x": 126.7429,
+   "y": 37.72973
+  },
+  {
+   "lineSeq": 1013,
+   "x": 126.74271,
+   "y": 37.72979
+  },
+  {
+   "lineSeq": 1014,
+   "x": 126.74213,
+   "y": 37.7298
+  },
+  {
+   "lineSeq": 1015,
+   "x": 126.74136,
+   "y": 37.72977
+  },
+  {
+   "lineSeq": 1016,
+   "x": 126.74132,
+   "y": 37.72977
+  },
+  {
+   "lineSeq": 1017,
+   "x": 126.74033,
+   "y": 37.72967
+  },
+  {
+   "lineSeq": 1018,
+   "x": 126.73982,
+   "y": 37.72957
+  },
+  {
+   "lineSeq": 1019,
+   "x": 126.73907,
+   "y": 37.72939
+  },
+  {
+   "lineSeq": 1020,
+   "x": 126.73816,
+   "y": 37.7291
+  },
+  {
+   "lineSeq": 1021,
+   "x": 126.738,
+   "y": 37.729
+  },
+  {
+   "lineSeq": 1022,
+   "x": 126.73796,
+   "y": 37.72915
+  },
+  {
+   "lineSeq": 1023,
+   "x": 126.73696,
+   "y": 37.73053
+  },
+  {
+   "lineSeq": 1024,
+   "x": 126.73683,
+   "y": 37.73062
+  },
+  {
+   "lineSeq": 1025,
+   "x": 126.73679,
+   "y": 37.73076
+  },
+  {
+   "lineSeq": 1026,
+   "x": 126.73623,
+   "y": 37.73159
+  },
+  {
+   "lineSeq": 1027,
+   "x": 126.73592,
+   "y": 37.73202
+  },
+  {
+   "lineSeq": 1028,
+   "x": 126.73534,
+   "y": 37.73283
+  },
+  {
+   "lineSeq": 1029,
+   "x": 126.73522,
+   "y": 37.73292
+  },
+  {
+   "lineSeq": 1030,
+   "x": 126.73517,
+   "y": 37.73304
+  },
+  {
+   "lineSeq": 1031,
+   "x": 126.73478,
+   "y": 37.7335
+  },
+  {
+   "lineSeq": 1032,
+   "x": 126.7341,
+   "y": 37.73427
+  },
+  {
+   "lineSeq": 1033,
+   "x": 126.73392,
+   "y": 37.73452
+  },
+  {
+   "lineSeq": 1034,
+   "x": 126.7338,
+   "y": 37.73461
+  },
+  {
+   "lineSeq": 1035,
+   "x": 126.73375,
+   "y": 37.73475
+  },
+  {
+   "lineSeq": 1036,
+   "x": 126.73322,
+   "y": 37.73547
+  },
+  {
+   "lineSeq": 1037,
+   "x": 126.73308,
+   "y": 37.73558
+  },
+  {
+   "lineSeq": 1038,
+   "x": 126.73303,
+   "y": 37.73573
+  },
+  {
+   "lineSeq": 1039,
+   "x": 126.73277,
+   "y": 37.7361
+  },
+  {
+   "lineSeq": 1040,
+   "x": 126.73181,
+   "y": 37.73749
+  },
+  {
+   "lineSeq": 1041,
+   "x": 126.7316,
+   "y": 37.73779
+  },
+  {
+   "lineSeq": 1042,
+   "x": 126.73151,
+   "y": 37.73794
+  },
+  {
+   "lineSeq": 1043,
+   "x": 126.73143,
+   "y": 37.7381
+  },
+  {
+   "lineSeq": 1044,
+   "x": 126.73132,
+   "y": 37.73832
+  },
+  {
+   "lineSeq": 1045,
+   "x": 126.73111,
+   "y": 37.73881
+  },
+  {
+   "lineSeq": 1046,
+   "x": 126.73101,
+   "y": 37.73893
+  },
+  {
+   "lineSeq": 1047,
+   "x": 126.73102,
+   "y": 37.73907
+  },
+  {
+   "lineSeq": 1048,
+   "x": 126.73088,
+   "y": 37.73972
+  },
+  {
+   "lineSeq": 1049,
+   "x": 126.73062,
+   "y": 37.74043
+  },
+  {
+   "lineSeq": 1050,
+   "x": 126.73043,
+   "y": 37.74081
+  },
+  {
+   "lineSeq": 1051,
+   "x": 126.72968,
+   "y": 37.74197
+  },
+  {
+   "lineSeq": 1052,
+   "x": 126.72956,
+   "y": 37.74206
+  },
+  {
+   "lineSeq": 1053,
+   "x": 126.72952,
+   "y": 37.7422
+  },
+  {
+   "lineSeq": 1054,
+   "x": 126.72931,
+   "y": 37.74251
+  },
+  {
+   "lineSeq": 1055,
+   "x": 126.72869,
+   "y": 37.74342
+  },
+  {
+   "lineSeq": 1056,
+   "x": 126.72856,
+   "y": 37.7435
+  },
+  {
+   "lineSeq": 1057,
+   "x": 126.7284,
+   "y": 37.74343
+  },
+  {
+   "lineSeq": 1058,
+   "x": 126.72729,
+   "y": 37.74246
+  },
+  {
+   "lineSeq": 1059,
+   "x": 126.72682,
+   "y": 37.74211
+  },
+  {
+   "lineSeq": 1060,
+   "x": 126.72672,
+   "y": 37.74198
+  },
+  {
+   "lineSeq": 1061,
+   "x": 126.72656,
+   "y": 37.74194
+  },
+  {
+   "lineSeq": 1062,
+   "x": 126.72533,
+   "y": 37.74123
+  },
+  {
+   "lineSeq": 1063,
+   "x": 126.72493,
+   "y": 37.74105
+  },
+  {
+   "lineSeq": 1064,
+   "x": 126.72455,
+   "y": 37.74088
+  },
+  {
+   "lineSeq": 1065,
+   "x": 126.72434,
+   "y": 37.7408
+  },
+  {
+   "lineSeq": 1066,
+   "x": 126.72423,
+   "y": 37.74072
+  },
+  {
+   "lineSeq": 1067,
+   "x": 126.72412,
+   "y": 37.7407
+  },
+  {
+   "lineSeq": 1068,
+   "x": 126.72253,
+   "y": 37.73986
+  },
+  {
+   "lineSeq": 1069,
+   "x": 126.72238,
+   "y": 37.73979
+  },
+  {
+   "lineSeq": 1070,
+   "x": 126.72222,
+   "y": 37.73973
+  },
+  {
+   "lineSeq": 1071,
+   "x": 126.72167,
+   "y": 37.73959
+  },
+  {
+   "lineSeq": 1072,
+   "x": 126.72159,
+   "y": 37.73955
+  },
+  {
+   "lineSeq": 1073,
+   "x": 126.72149,
+   "y": 37.73955
+  },
+  {
+   "lineSeq": 1074,
+   "x": 126.72092,
+   "y": 37.73935
+  },
+  {
+   "lineSeq": 1075,
+   "x": 126.72073,
+   "y": 37.73928
+  },
+  {
+   "lineSeq": 1076,
+   "x": 126.72055,
+   "y": 37.73918
+  },
+  {
+   "lineSeq": 1077,
+   "x": 126.7204,
+   "y": 37.73905
+  },
+  {
+   "lineSeq": 1078,
+   "x": 126.72004,
+   "y": 37.73866
+  },
+  {
+   "lineSeq": 1079,
+   "x": 126.71995,
+   "y": 37.73856
+  },
+  {
+   "lineSeq": 1080,
+   "x": 126.71981,
+   "y": 37.73847
+  },
+  {
+   "lineSeq": 1081,
+   "x": 126.71964,
+   "y": 37.73837
+  },
+  {
+   "lineSeq": 1082,
+   "x": 126.71929,
+   "y": 37.73825
+  },
+  {
+   "lineSeq": 1083,
+   "x": 126.71907,
+   "y": 37.73815
+  },
+  {
+   "lineSeq": 1084,
+   "x": 126.71893,
+   "y": 37.73807
+  },
+  {
+   "lineSeq": 1085,
+   "x": 126.71881,
+   "y": 37.738
+  },
+  {
+   "lineSeq": 1086,
+   "x": 126.71826,
+   "y": 37.73765
+  },
+  {
+   "lineSeq": 1087,
+   "x": 126.7182,
+   "y": 37.73759
+  },
+  {
+   "lineSeq": 1088,
+   "x": 126.71813,
+   "y": 37.73758
+  },
+  {
+   "lineSeq": 1089,
+   "x": 126.71786,
+   "y": 37.73742
+  },
+  {
+   "lineSeq": 1090,
+   "x": 126.71755,
+   "y": 37.73728
+  },
+  {
+   "lineSeq": 1091,
+   "x": 126.71723,
+   "y": 37.73717
+  },
+  {
+   "lineSeq": 1092,
+   "x": 126.71705,
+   "y": 37.73711
+  },
+  {
+   "lineSeq": 1093,
+   "x": 126.71701,
+   "y": 37.73709
+  },
+  {
+   "lineSeq": 1094,
+   "x": 126.71684,
+   "y": 37.737
+  },
+  {
+   "lineSeq": 1095,
+   "x": 126.71658,
+   "y": 37.73679
+  },
+  {
+   "lineSeq": 1096,
+   "x": 126.71613,
+   "y": 37.73638
+  },
+  {
+   "lineSeq": 1097,
+   "x": 126.71563,
+   "y": 37.73595
+  },
+  {
+   "lineSeq": 1098,
+   "x": 126.71546,
+   "y": 37.73584
+  },
+  {
+   "lineSeq": 1099,
+   "x": 126.71525,
+   "y": 37.73575
+  },
+  {
+   "lineSeq": 1100,
+   "x": 126.71512,
+   "y": 37.73572
+  },
+  {
+   "lineSeq": 1101,
+   "x": 126.7144,
+   "y": 37.73565
+  },
+  {
+   "lineSeq": 1102,
+   "x": 126.71422,
+   "y": 37.73562
+  },
+  {
+   "lineSeq": 1103,
+   "x": 126.71412,
+   "y": 37.73558
+  },
+  {
+   "lineSeq": 1104,
+   "x": 126.71399,
+   "y": 37.73554
+  },
+  {
+   "lineSeq": 1105,
+   "x": 126.71395,
+   "y": 37.73552
+  },
+  {
+   "lineSeq": 1106,
+   "x": 126.71388,
+   "y": 37.73551
+  },
+  {
+   "lineSeq": 1107,
+   "x": 126.71341,
+   "y": 37.73536
+  },
+  {
+   "lineSeq": 1108,
+   "x": 126.71329,
+   "y": 37.7353
+  },
+  {
+   "lineSeq": 1109,
+   "x": 126.71316,
+   "y": 37.73519
+  },
+  {
+   "lineSeq": 1110,
+   "x": 126.71307,
+   "y": 37.73508
+  },
+  {
+   "lineSeq": 1111,
+   "x": 126.71224,
+   "y": 37.73393
+  },
+  {
+   "lineSeq": 1112,
+   "x": 126.71214,
+   "y": 37.73383
+  },
+  {
+   "lineSeq": 1113,
+   "x": 126.71201,
+   "y": 37.73374
+  },
+  {
+   "lineSeq": 1114,
+   "x": 126.71185,
+   "y": 37.73363
+  },
+  {
+   "lineSeq": 1115,
+   "x": 126.71146,
+   "y": 37.73344
+  },
+  {
+   "lineSeq": 1116,
+   "x": 126.71133,
+   "y": 37.73336
+  },
+  {
+   "lineSeq": 1117,
+   "x": 126.71124,
+   "y": 37.73328
+  },
+  {
+   "lineSeq": 1118,
+   "x": 126.71122,
+   "y": 37.73322
+  },
+  {
+   "lineSeq": 1119,
+   "x": 126.71111,
+   "y": 37.73325
+  },
+  {
+   "lineSeq": 1120,
+   "x": 126.7108,
+   "y": 37.73328
+  },
+  {
+   "lineSeq": 1121,
+   "x": 126.71072,
+   "y": 37.73327
+  },
+  {
+   "lineSeq": 1122,
+   "x": 126.71075,
+   "y": 37.73336
+  },
+  {
+   "lineSeq": 1123,
+   "x": 126.71075,
+   "y": 37.73338
+  },
+  {
+   "lineSeq": 1124,
+   "x": 126.71074,
+   "y": 37.7334
+  }
+ ]
+}

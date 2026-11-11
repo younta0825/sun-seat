@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>햇빛 좌석 — 어디 앉아야 덜 쬘까</title>
+<style>
+  :root{--bg:#f6f4ef;--card:#fff;--ink:#1d1c1a;--mute:#7a766d;--line:#e4e0d6;--sun:#f08a24;--sun2:#fbd3a6;--shade:#3d6f8f;--shade2:#d6e4ec;--dark:#9b978e}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Noto Sans KR",sans-serif;background:var(--bg);color:var(--ink);line-height:1.45}
+  main{max-width:760px;margin:0 auto;padding:20px 16px 60px}
+  h1{font-size:22px;margin:4px 0 2px;letter-spacing:-.02em}
+  .sub{color:var(--mute);font-size:14px;margin:0 0 18px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:14px}
+  .tabs{display:flex;gap:6px;margin-bottom:12px;flex-wrap:wrap}
+  .tab{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 14px;font-size:14px;cursor:pointer;color:var(--ink)}
+  .tab.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  label{display:block;font-size:12px;color:var(--mute);margin-bottom:4px}
+  select,input{width:100%;font:inherit;font-size:15px;padding:9px 10px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+  .row{display:flex;gap:8px;align-items:center;margin-top:10px;flex-wrap:wrap}
+  .seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  .seg button{border:0;background:#fff;padding:8px 12px;font:inherit;font-size:14px;cursor:pointer;color:var(--ink)}
+  .seg button.on{background:var(--shade);color:#fff}
+  .seg button.on.sunny{background:var(--sun)}
+  .small{font-size:12px;color:var(--mute)}
+  .verdict{font-size:20px;font-weight:700;letter-spacing:-.02em;margin:2px 0 6px}
+  .verdict b{color:var(--shade)} .verdict b.sunny{color:var(--sun)}
+  .stats{display:flex;gap:14px;flex-wrap:wrap;font-size:14px;margin-top:6px}
+  .stats span{white-space:nowrap}
+  .dot{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+  .layout{display:grid;grid-template-columns:200px 1fr;gap:16px;align-items:start}
+  @media (max-width:560px){.layout{grid-template-columns:1fr}.grid{grid-template-columns:1fr}}
+  .bus{margin-top:24px;border:2px solid var(--ink);border-radius:26px 26px 12px 12px;padding:16px 12px 12px;position:relative;background:#fbfaf7}
+  .bus .arrow{position:absolute;top:-22px;left:50%;transform:translateX(-50%);font-size:12px;color:var(--mute);white-space:nowrap}
+  .seats{display:grid;grid-template-columns:1fr 1fr 18px 1fr 1fr;gap:4px}
+  .seat{height:20px;border-radius:5px;border:1px solid rgba(0,0,0,.08)}
+  .seat.best{outline:2.5px solid var(--ink);outline-offset:1px}
+  .driver{height:20px;border-radius:5px;background:#ddd9cf;font-size:10px;color:var(--mute);display:flex;align-items:center;justify-content:center}
+  .zl{display:flex;justify-content:space-between;font-size:11px;color:var(--mute);margin-top:6px}
+  .tl{display:flex;height:16px;border-radius:5px;overflow:hidden;margin:4px 0 2px;background:#eee}
+  .tl div{height:100%}
+  .tlrow{display:grid;grid-template-columns:42px 1fr;gap:8px;align-items:center;font-size:12px;color:var(--mute)}
+  svg{width:100%;height:auto;display:block}
+  .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--mute);margin-top:6px}
+  details{font-size:13px;color:var(--mute)} details p{margin:6px 0}
+</style>
+</head>
+<body>
+<main>
+  <h1>☀️ 햇빛 좌석</h1>
+  <p class="sub">탈 정류장, 내릴 정류장, 출발 시각을 고르면 어느 자리가 햇빛을 덜 받는지 알려드려요.</p>
+
+  <div class="card">
+    <div class="tabs" id="tabs"></div>
+    <div class="grid">
+      <div><label>탈 정류장</label><select id="from"></select></div>
+      <div><label>내릴 정류장</label><select id="to"></select></div>
+      <div><label>출발 날짜·시각</label><input type="datetime-local" id="when"></div>
+      <div><label>걸리는 시간 (분) · <span id="est" class="small"></span></label><input type="number" id="mins" min="1" max="300" placeholder="자동"></div>
+    </div>
+    <div class="row">
+      <div class="seg" id="mode">
+        <button data-m="shade" class="on">그늘 찾기</button>
+        <button data-m="sun">햇볕 쬐기</button>
+      </div>
+      <button class="tab" id="now">지금 출발</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="verdict" id="verdict"></div>
+    <div class="small" id="why"></div>
+    <div class="stats" id="stats"></div>
+  </div>
+
+  <div class="card layout">
+    <div>
+      <div class="bus"><div class="arrow">▲ 진행 방향</div><div class="seats" id="seats"></div></div>
+      <div class="zl"><span>왼쪽 창가</span><span>오른쪽 창가</span></div>
+    </div>
+    <div>
+      <div class="small" style="margin-bottom:6px">시간별로 해가 드는 쪽</div>
+      <div class="tlrow"><span>왼쪽</span><div class="tl" id="tlL"></div></div>
+      <div class="tlrow"><span>오른쪽</span><div class="tl" id="tlR"></div></div>
+      <div class="tlrow"><span></span><div class="zl" style="margin-top:0"><span id="t0"></span><span id="t1"></span></div></div>
+      <div style="margin-top:12px"><svg id="map" viewBox="0 0 400 260"></svg></div>
+      <div class="legend">
+        <span><i class="dot" style="background:var(--sun)"></i>해가 오른쪽</span>
+        <span><i class="dot" style="background:#8a5cc2"></i>해가 왼쪽</span>
+        <span><i class="dot" style="background:var(--dark)"></i>앞·뒤 또는 해 없음</span>
+      </div>
+    </div>
+  </div>
+
+  <details class="card">
+    <summary>계산 방법과 한계</summary>
+    <p>경기도 버스정보(GBIS) 노선 경로 좌표를 따라 버스가 움직인다고 보고, 구간마다 진행 방향과 그 시각의 태양 위치(방위각·고도)를 비교해서 해가 버스의 왼쪽, 오른쪽, 앞, 뒤 중 어디에 있는지 누적해요.</p>
+    <p>이동 시간은 시내 구간 16~20km/h, 고속도로 경유 구간 65km/h로 추정해요. 실제 시간을 알면 ‘걸리는 시간’에 넣으면 비율에 맞춰 다시 계산해요.</p>
+    <p>건물·산·방음벽 그림자, 구름, 커튼은 반영하지 않아요. 해가 아주 높을 때(한여름 정오)는 옆 창보다 지붕 쪽이라 영향이 작게 계산돼요.</p>
+  </details>
+  <p class="small" style="text-align:center;margin-top:18px">노선 데이터: 경기도 버스정보(GBIS), 공공데이터포털 · 태양 위치는 천문 공식으로 계산</p>
+</main>
+<script src="routes.js"></script>
+<script src="sun.js"></script>
+<script>
+const R = window.ROUTES, S = window.SunSeat;
+const $ = id => document.getElementById(id);
+let cur = 0, mode = "shade";
+
+function pad(n){return String(n).padStart(2,"0")}
+function kstNowLocal(){const d=new Date(Date.now()+9*3600e3);return `${d.getUTCFullYear()}-${pad(d.getUTCMonth()+1)}-${pad(d.getUTCDate())}T${pad(d.getUTCHours())}:${pad(d.getUTCMinutes())}`}
+function hhmm(date){const d=new Date(date.getTime()+9*3600e3);return `${pad(d.getUTCHours())}:${pad(d.getUTCMinutes())}`}
+
+function dirGroups(route){
+  const st=route.stations, turn=st.findIndex(s=>s.turn);
+  const last=st.length-1;
+  return [
+    {label:`${st[turn].name} 방향`, from:0, to:turn},
+    {label:`${st[last].name} 방향`, from:turn, to:last},
+  ];
+}
+function fillFrom(){
+  const route=R[cur], g=dirGroups(route);
+  $("from").innerHTML=g.map(gr=>`<optgroup label="${gr.label}">`+
+    route.stations.slice(gr.from,gr.to).map((s,k)=>s.via?"":`<option value="${gr.from+k}">${s.name}</option>`).join("")+`</optgroup>`).join("");
+  fillTo();
+}
+function fillTo(){
+  const route=R[cur], i=+$("from").value, g=dirGroups(route);
+  const gr=g.find(x=>i>=x.from&&i<x.to)||g[0];
+  const opts=[];
+  for(let k=i+1;k<=gr.to;k++){const s=route.stations[k]; if(!s.via) opts.push(`<option value="${k}">${s.name}</option>`)}
+  $("to").innerHTML=opts.join("");
+  $("to").selectedIndex=opts.length-1;
+  $("mins").value="";
+  render();
+}
+
+function colorFor(v, sunny){ // v: 0~1 노출
+  const x=Math.min(1,v/0.7);
+  const a=[251,244,232], b=sunny?[240,138,36]:[240,138,36];
+  return `rgb(${a.map((c,i)=>Math.round(c+(b[i]-c)*x)).join(",")})`;
+}
+
+function render(){
+  const route=R[cur], i=+$("from").value, j=+$("to").value;
+  if(!(j>i)) return;
+  const when=new Date(($("when").value||kstNowLocal())+":00+09:00");
+  const mins=parseFloat($("mins").value)||0;
+  const res=S.analyze(route,i,j,when,mins);
+  $("est").textContent=`예상 약 ${Math.round(res.estSec/60)}분`;
+  const z=res.zones, A=res.acc;
+  const tripMin=res.tripSec/60, sunMin=A.sunSec/60;
+  const keys=["leftFront","leftMid","leftBack","rightFront","rightMid","rightBack"];
+  const names={leftFront:"왼쪽 앞",leftMid:"왼쪽 중간",leftBack:"왼쪽 뒤",rightFront:"오른쪽 앞",rightMid:"오른쪽 중간",rightBack:"오른쪽 뒤"};
+  const sorted=[...keys].sort((a,b)=>z[a]-z[b]);
+  const best = mode==="shade" ? sorted[0] : sorted[sorted.length-1];
+  const sideL=A.L, sideR=A.R;
+  const betterSide = mode==="shade" ? (sideL<=sideR?"왼쪽":"오른쪽") : (sideL>sideR?"왼쪽":"오른쪽");
+  const sunny = mode==="sun";
+
+  if (sunMin < 1) {
+    $("verdict").innerHTML="해가 없는 시간이에요. 아무 데나 앉아도 돼요 🌙";
+    $("why").textContent="";
+  } else if (Math.abs(sideL-sideR)/res.tripSec < 0.05 && mode==="shade") {
+    $("verdict").innerHTML=`양쪽이 비슷해요. 굳이 고르면 <b>${names[best]}</b>`;
+    $("why").textContent="방향이 자주 바뀌어서 해가 왼쪽과 오른쪽에 번갈아 들어와요.";
+  } else {
+    $("verdict").innerHTML=`<b class="${sunny?"sunny":""}">${betterSide}</b>에 앉으세요 · 추천 자리 <b class="${sunny?"sunny":""}">${names[best]}</b>`;
+    const onSide = mode==="shade" ? (betterSide==="왼쪽"?A.sunR:A.sunL) : (betterSide==="왼쪽"?A.sunL:A.sunR);
+    $("why").textContent = mode==="shade"
+      ? `해가 있는 ${Math.round(sunMin)}분 중 약 ${Math.round(onSide/60)}분 동안 해가 반대쪽(${betterSide==="왼쪽"?"오른쪽":"왼쪽"})에 있어요.`
+      : `해가 있는 ${Math.round(sunMin)}분 중 약 ${Math.round(onSide/60)}분 동안 해가 ${betterSide}에 있어요.`;
+  }
+  $("stats").innerHTML=[
+    `<span>🚌 ${hhmm(when)} → ${hhmm(new Date(when.getTime()+res.tripSec*1000))} (${Math.round(tripMin)}분)</span>`,
+    `<span><i class="dot" style="background:#8a5cc2"></i>해가 왼쪽 ${Math.round(A.sunL/60)}분</span>`,
+    `<span><i class="dot" style="background:var(--sun)"></i>해가 오른쪽 ${Math.round(A.sunR/60)}분</span>`,
+    A.darkSec>30?`<span>🌙 해 없음 ${Math.round(A.darkSec/60)}분</span>`:""
+  ].join("");
+
+  // 좌석도
+  const rows = route.type.includes("직행") ? 11 : 9;
+  let html=`<div class="driver">운전석</div><div></div><div></div><div></div><div></div>`;
+  for(let r=0;r<rows;r++){
+    const zone = r < rows/3 ? "Front" : r < rows*2/3 ? "Mid" : "Back";
+    const vl=z["left"+zone], vr=z["right"+zone];
+    const bl = best==="left"+zone, br = best==="right"+zone;
+    const midRow = Math.floor(rows/3*({Front:0.5,Mid:1.5,Back:2.5})[zone]);
+    const mark = (isBest)=> isBest && r===midRow ? " best" : "";
+    html+=`<div class="seat${mark(bl)}" style="background:${colorFor(vl)}"></div><div class="seat" style="background:${colorFor(vl*0.75)}"></div><div></div>`+
+          `<div class="seat" style="background:${colorFor(vr*0.75)}"></div><div class="seat${mark(br)}" style="background:${colorFor(vr)}"></div>`;
+  }
+  $("seats").innerHTML=html;
+
+  // 타임라인
+  const bins=60, bl=[], br=[];
+  for(let b=0;b<bins;b++){bl.push(0);br.push(0)}
+  const dark=new Array(bins).fill(0);
+  for(const s of res.samples){
+    const b=Math.min(bins-1,Math.floor(s.t/res.tripSec*bins));
+    if(s.alt<=0){dark[b]+=s.dt;continue}
+    if(s.side<0) bl[b]+=s.strength*s.dt; else if(s.side>0) br[b]+=s.strength*s.dt;
+  }
+  const binSec=res.tripSec/bins;
+  const cell=(v,d)=> d>binSec*0.5 ? `<div style="flex:1;background:#d7d3ca"></div>` : `<div style="flex:1;background:${colorFor(v/binSec)}"></div>`;
+  $("tlL").innerHTML=bl.map((v,k)=>cell(v,dark[k])).join("");
+  $("tlR").innerHTML=br.map((v,k)=>cell(v,dark[k])).join("");
+  $("t0").textContent=hhmm(when); $("t1").textContent=hhmm(new Date(when.getTime()+res.tripSec*1000));
+
+  // 지도 (전체 노선은 회색, 탈 구간은 해 방향 색)
+  const L=route.line;
+  let minx=1e9,maxx=-1e9,miny=1e9,maxy=-1e9;
+  for(const p of L){minx=Math.min(minx,p[0]);maxx=Math.max(maxx,p[0]);miny=Math.min(miny,p[1]);maxy=Math.max(maxy,p[1])}
+  const kx=Math.cos((miny+maxy)/2*Math.PI/180), W=400,H=260,pd=14;
+  const sc=Math.min((W-2*pd)/((maxx-minx)*kx),(H-2*pd)/(maxy-miny));
+  const ox=(W-(maxx-minx)*kx*sc)/2, oy=(H-(maxy-miny)*sc)/2;
+  const P=p=>[(ox+(p[0]-minx)*kx*sc).toFixed(1),(H-oy-(p[1]-miny)*sc).toFixed(1)];
+  let svg=`<polyline fill="none" stroke="#d9d5cb" stroke-width="3" points="${L.map(p=>P(p).join(",")).join(" ")}"/>`;
+  for(const s of res.samples){
+    const c = s.alt<=0||s.side===0 ? "#9b978e" : s.side>0 ? "#f08a24" : "#8a5cc2";
+    const a=P(s.a), b=P(s.b);
+    svg+=`<line x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="${c}" stroke-width="5" stroke-linecap="round"/>`;
+  }
+  const st=route.stations, s0=P(L[st[i].li]), s1=P(L[st[j].li]);
+  svg+=`<circle cx="${s0[0]}" cy="${s0[1]}" r="6" fill="#fff" stroke="#1d1c1a" stroke-width="2.5"/><text x="${+s0[0]+9}" y="${+s0[1]+4}" font-size="12" fill="#1d1c1a">${st[i].name}</text>`;
+  svg+=`<circle cx="${s1[0]}" cy="${s1[1]}" r="6" fill="#1d1c1a"/><text x="${+s1[0]+9}" y="${+s1[1]+4}" font-size="12" fill="#1d1c1a">${st[j].name}</text>`;
+  svg+=`<text x="${W-8}" y="16" font-size="12" text-anchor="end" fill="#7a766d">N ↑</text>`;
+  $("map").innerHTML=svg;
+}
+
+// 초기화
+$("tabs").innerHTML=R.map((r,k)=>`<button class="tab${k===0?" on":""}" data-k="${k}">${r.label}</button>`).join("");
+$("tabs").onclick=e=>{const b=e.target.closest("button");if(!b)return;cur=+b.dataset.k;
+  [...$("tabs").children].forEach(x=>x.classList.toggle("on",x===b));fillFrom();};
+$("from").onchange=fillTo; $("to").onchange=()=>{$("mins").value="";render()};
+$("when").oninput=render; $("mins").oninput=render;
+$("now").onclick=()=>{$("when").value=kstNowLocal();render()};
+$("mode").onclick=e=>{const b=e.target.closest("button");if(!b)return;mode=b.dataset.m;
+  [...$("mode").children].forEach(x=>{x.classList.toggle("on",x===b);x.classList.toggle("sunny",x===b&&mode==="sun")});render();};
+$("when").value=kstNowLocal();
+fillFrom();
+</script>
+</body>
+</html>
